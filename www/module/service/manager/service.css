@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+#service {}
+
+/* preview */
+#service ul.preview > li > div.content p.price {}
+#service ul.preview > li > div.content p.price > span { text-decoration:line-through; }
+#service ul.preview > li > div.content p.price > strong { font-weight:bold; }
+#service ul.preview > li > div.content p.content { margin:5px 0; }
+
+#service ul.preview > li > div.content > p.content {height:40px;}
+#service ul.preview > li > div.order {display:block; float:left; padding:35px 20px 0 20px;}
+#service ul.preview > li > div.order button.up {display:inline-block; min-width:26px; height:26px; line-height:18px; padding:0; border:1px solid #d2d2d2; vertical-align:baseline; text-align:center; font-size:11px;  background:url("/img/common/ico_up.gif") 0 0 no-repeat #fff; cursor:pointer;}
+#service ul.preview > li > div.order button.down {display:inline-block; min-width:26px; height:26px; line-height:18px; padding:0; border:1px solid #d2d2d2; vertical-align:baseline; text-align:center; font-size:11px;  background:url("/img/common/ico_down.gif") 0 0 no-repeat #fff; cursor:pointer;}
+#service ul.preview > li > div.order button.up:focus, table.list_table tr td button.up:hover, 
+#service ul.preview > li > div.order button.down:focus, table.list_table tr td button.down:hover { background-color:#eee; text-decoration:none; font-weight:bold; }

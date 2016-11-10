@@ -1,0 +1,250 @@
+/*
+Uniform Theme:Onboard
+Version:1.0
+By:Milgam12
+License:MIT License
+---
+For use with the Uniform plugin:
+http://uniformjs.com/
+*/
+
+/**
+* 기존 유니폼 스타일 중
+* Select, File 요소 만 적용
+*/
+
+/**
+* 공통 설정 
+*/
+div.selector, div.selector span,
+div.uploader, div.uploader span.action {
+	background-image:url("./sprite.png");
+	background-repeat:no-repeat;
+	-webkit-font-smoothing:antialiased; }
+
+div.selector,
+div.uploader {
+	display:-moz-inline-box;
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	vertical-align:middle;
+}
+
+div.selector:focus,
+div.uploader:focus {
+	outline:0; }
+
+div.selector, div.selector *,
+div.uploader, div.uploader * {
+	margin:0;
+	padding:0; }
+
+/**
+* 기본 설정
+*/
+
+/* 1. select */
+div.selector {		
+	position:relative;
+	padding:0 0 0 10px;	
+	overflow:hidden; 
+	background-position:0 -250px; }
+
+div.selector.hover {
+	background-position:-50px -250px; }
+
+div.selector.focus {
+	background-position:-100px -250px; }
+
+div.selector.active {
+	background-position:-150px -250px; }
+
+div.selector.disabled {
+	background-position:-200px -250px; }
+
+div.selector.fixedWidth {
+	width:190px; }
+
+div.selector.fixedWidth span {
+	width:155px; }
+
+div.selector span {
+	display:block;
+	width:100%;
+	padding-right:25px;
+	overflow:hidden;
+	text-overflow:ellipsis;	
+	white-space:nowrap;	
+	cursor:pointer; 
+	background-position:right 0; 
+	text-align:left; }
+
+div.selector.hover span {
+	background-position:right -50px; }
+
+div.selector.focus span {
+	background-position:right -100px; }
+
+div.selector.active span {
+	background-position:right -150px; }
+
+div.selector.disabled span {
+	background-position:right -200px; }
+
+div.selector select {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	opacity:0;
+	filter:alpha(opacity=0);
+	-moz-opacity:0;
+	border:none;
+	background:none; }
+
+/* 2. file */
+div.uploader {			
+	position:relative;
+	width:190px;
+	overflow:hidden; 	
+	background-color:#fff;
+	cursor:pointer; 
+	background-position:0 -300px; }
+
+div.uploader.hover {
+	background-position:0 -350px; }
+
+div.uploader.focus {
+	background-position:0 -400px; }
+
+div.uploader.active {
+	background-position:0 -450px; }
+
+div.uploader.disabled {
+	background-position:0 -500px; }
+
+div.uploader span.action {	
+	display:inline;
+	float:left;
+	width:84px;	
+	overflow:hidden;
+	text-align:center;
+	cursor:pointer; 
+	background-position:right -550px; }
+
+div.uploader.hover span.action {
+	background-position:right -600px; }
+
+div.uploader.focus span.action {
+	background-position:right -650px; }
+
+div.uploader.active span.action {
+	background-position:right -700px; }
+
+div.uploader.disabled span.action {
+	background-position:right -750px; }
+
+div.uploader span.filename {
+	display:block;
+	float:left;
+	width:85px;
+	padding:0 10px; 
+	border-right-width:1px;
+	border-right-style:solid;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	cursor:default; }
+
+div.uploader input {
+	float:right;
+	position:absolute;
+	top:0;
+	right:0;	
+	width:100%;
+	height:100%;
+	opacity:0;
+	filter:alpha(opacity=0);
+	-moz-opacity:0;
+	border:none;
+	background:none;
+	cursor:default; }
+
+/**
+* 개별 요소
+*/
+
+/* 1. select
+div.selector, div.selector span, div.selector select { 
+	height:22px;
+	font-size:12px;
+	font-family:'돋움',dotum,Helvetica,sans-serif; }
+
+div.selector {
+	line-height:22px; }
+
+div.selector span {
+	line-height:24px;
+	color:#666; }
+
+div.selector.disabled span {
+	color:#999; }
+
+div.selector select {
+	height:18px;
+	color:#333;}
+ */
+
+/* 2. select */
+div.selector, div.selector span, div.selector select { 
+	height:30px;
+	font-size:12px;
+	font-family:'돋움',dotum,Helvetica,sans-serif; cursor:pointer; }
+
+div.selector {
+	line-height:28px; }
+
+div.selector span {
+	line-height:32px;
+	color:#666; }
+
+div.selector.disabled span {
+	color:#999; }
+
+div.selector select {
+	height:30px;
+	color:#333;}
+
+/* 2. file */
+div.uploader, span.action, span.filename { 
+	height:22px; 	
+	font-size:11px;
+	font-family:'돋움',dotum,Helvetica,sans-serif; }
+
+div.uploader {	
+	line-height:22px; }
+
+div.uploader span.action {	
+	line-height:24px; 
+	color:#333; }
+
+div.uploader.disabled span.action {
+	color:#999; }
+
+div.uploader span.filename {	
+	border-color:#aaa;
+	line-height:24px; 
+	color:#666; }
+
+div.uploader.hover span.filename {
+	border-color:#26a0da; }
+
+div.uploader.focus span.filename {
+	border-color:#707070; }
+
+div.uploader.active span.filename {
+	border-color:#0089b4; }
+
+div.uploader.disabled span.filename {
+	border-color:#bcbcbc; }

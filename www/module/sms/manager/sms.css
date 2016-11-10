@@ -1,0 +1,222 @@
+/* member_certification.php */
+div.sub_member div.mobileBox {position:relative;height:160px;margin-bottom:30px;border:1px solid #1d4da5;border-radius:2px;background:#2460ce;}
+div.sub_member div.mobileBox > div.mobile {padding:60px 0 0 80px;color:#fff;}
+div.sub_member div.mobileBox > div.mobile > ul {}
+div.sub_member div.mobileBox > div.mobile > ul:after {display:block;content:'';clear:both;} 
+div.sub_member div.mobileBox > div.mobile > ul > li:first-child {margin:0;}
+div.sub_member div.mobileBox > div.mobile > ul > li {float:left;margin-left:20px;}
+div.sub_member div.mobileBox > div.mobile > ul > li > span {display:block;margin:4px 0 10px 0;font-weight:600;font-size:18px;}
+
+div.sub_member div.mobileBox > div.btn_mobile {position:absolute;top:60px;right:80px;}
+
+/* member_join.php */
+div.sub_member div.con {margin-bottom:40px;}
+div.sub_member div.con > div.agree_area {overflow:hidden;overflow-y:scroll;height:125px;margin:5px 0;padding:15px;border:1px solid #ddd;line-height:20px;}
+div.sub_member div.con > div.agree_area+label {font-size:11px;color:#666;}
+div.sub_member div.con > div.agree_area strong {font-weight:600;}
+
+div.sub_member div.con > div.agree_area > p {font-size:12px;line-height:18px;}
+div.sub_member div.con > div.agree_area > p.title {margin:60px 0 20px 0;font-weight:600;font-size:14px;line-height:14px;color:#333;}
+div.sub_member div.con > div.agree_area > p.title.first {margin:0 0 20px 0;font-weight:600;font-size:14px;line-height:14px;color:#333;}
+div.sub_member div.con > div.agree_area > dl {margin-bottom:30px;font-size:12px;}
+div.sub_member div.con > div.agree_area > dl > dt {margin-bottom:5px;font-weight:600;font-size:12px;line-height:12px;}
+div.sub_member div.con > div.agree_area > dl > dd {margin-top:5px;line-height:18px;}
+div.sub_member div.con > div.agree_area > dl > dd > ul {}
+div.sub_member div.con > div.agree_area > dl > dd > ul > li {margin-top:5px;}
+div.sub_member div.con > div.agree_area > dl > dd > dl {margin-top:10px;padding-left:10px;}
+div.sub_member div.con > div.agree_area > dl > dd > ul > li > ul,
+div.sub_member div.con > div.agree_area > dl > dd > ul > li > dl, 
+div.sub_member div.con > div.agree_area > dl > dd > ul > li > p {padding-left:10px;}
+
+/*
+	member_join_result.php
+*/
+div.sub_member div.mobileBox {position:relative;height:160px;margin-bottom:30px;border:1px solid #1d4da5;border-radius:2px;background:#2460ce;}
+div.sub_member div.mobileBox > div.mobile {padding:60px 0 0 80px;color:#fff;}
+div.sub_member div.mobileBox > div.mobile > ul {}
+div.sub_member div.mobileBox > div.mobile > ul:after {display:block;content:'';clear:both;} 
+div.sub_member div.mobileBox > div.mobile > ul > li:first-child {margin:0;}
+div.sub_member div.mobileBox > div.mobile > ul > li {float:left;margin-left:20px;}
+div.sub_member div.mobileBox > div.mobile > ul > li > span {display:block;margin:4px 0 10px 0;font-weight:600;font-size:18px;}
+
+div.sub_member div.mobileBox > div.btn_mobile {position:absolute;top:60px;right:80px;}
+
+
+/* message_sms_direct.php  */
+div.sub_send {}
+
+div.send_area {margin-top:60px;}
+div.send_area:after {display:block;content:'';clear:both;}
+div.send_area > div.con_left {float:left;width:300px;}
+div.send_area > div.con_left > div.box {display:block;position:relative;padding:15px 20px;border:1px solid #ddd;border-radius:2px;}
+div.send_area > div.con_left > div.box > ul {}
+div.send_area > div.con_left > div.box > ul > li {padding-left:10px;font-weight:600;line-height:20px;background:url("/img/manager/bl_dot.gif") 0 8px no-repeat;color:#333;}
+div.send_area > div.con_left > div.box > ul > li > span {position:absolute;right:70px;color:#ff0000;}
+div.send_area > div.con_left > div.box > table.list_table {margin-top:5px;border-top:1px solid #d2d2d2;}
+div.send_area > div.con_left > div.box > div.btn_charge {position:absolute;top:15px;right:20px;}
+
+div.send_area > div.con_left > div.phone {display:block;position:relative;margin-top:20px;background:url("/img/manager/bg_phone.png") 0 0 no-repeat;}
+div.send_area > div.con_left > div.phone > div.write_area {padding:42px 22px 0 17px;}
+div.send_area > div.con_left > div.phone > div.write_area > textarea.smsbox {overflow:auto;width:200px;height:200px;margin:20px;padding:10px;border:none;line-height:20px;background:transparent;color:#666;resize:none;}
+div.send_area > div.con_left > div.phone > p.byte {margin:5px 0 0 40px;}
+div.send_area > div.con_left > div.phone > p.byte > span.length {font-weight:600;color:#2460ce;}
+div.send_area > div.con_left > div.phone > p.byte > span.limit {color:#333;}
+div.send_area > div.con_left > div.phone > p.byte > span.type {margin-left:5px;padding-left:10px;background:url("/img/manager/bg_line.gif") 0 50% no-repeat;color:#333;}
+div.send_area > div.con_left > div.phone > div.btn_delete {position:absolute;top:302px;right:42px;}
+div.send_area > div.con_left > div.phone > div.btn_delete > button.trash {display:inline-block;overflow:visible;position:relative;width:25px;height:25px;margin:0;padding:0;border:1px solid #1d4da5;font-size:12px;line-height:21px;background:#2460ce;color:#fff;text-align:center;text-decoration:none !important;vertical-align:middle;white-space:nowrap;cursor:pointer;box-sizing:border-box;}
+div.send_area > div.con_left > div.phone > p.change_info {margin:30px 0 0 18px;}
+div.send_area > div.con_left > div.phone > div.btn_sms {padding:12px 0 25px 17px;}
+div.send_area > div.con_left > div.phone > div.btn_mms {padding:36px 0 46px 17px;}
+
+div.send_area > div.con_left > div.message_info {position:relative;margin-top:30px;}
+div.send_area > div.con_left > div.message_info > ul {}
+div.send_area > div.con_left > div.message_info > ul:after {display:block;content:'';clear:both;}
+div.send_area > div.con_left > div.message_info > ul > li {float:left;margin-left:4px;}
+div.send_area > div.con_left > div.message_info > ul > li:first-child {margin:0;}
+div.send_area > div.con_left > div.message_info > ul > li > button.name {display:inline-block;overflow:visible;position:relative;width:95px;height:25px;margin:0;padding:0;border:1px solid #ddd;font-size:12px;line-height:21px;background:#f5f5f5;color:#333;text-align:center;text-decoration:none !important;vertical-align:middle;white-space:nowrap;cursor:pointer;box-sizing:border-box;}
+div.send_area > div.con_left > div.message_info > ul > li > button.question {display:inline-block;overflow:visible;position:relative;width:25px;height:25px;margin:0;padding:0;border:1px solid #e7b800;font-size:12px;line-height:21px;background:#feca00;color:#333;text-align:center;text-decoration:none !important;vertical-align:top;white-space:nowrap;cursor:pointer;box-sizing:border-box;}
+div.send_area > div.con_left > div.message_info > ul > li > button.question > i {font-weight:600;}
+div.send_area > div.con_left > div.message_info > ul > li > p.btn_area {display:inline-block;width:150px;height:25px;padding-top:1px;border:1px solid #ddd;line-height:22px;background:#f5f5f5;color:#333;box-sizing:border-box;}
+div.send_area > div.con_left > div.message_info > ul > li > p.btn_area > input {margin-bottom:5px;}
+div.send_area > div.con_left > div.message_info > ul > li > p.btn_area > label {margin:0;}
+div.send_area > div.con_left > div.message_info > ul > li > span {position:absolute;top:1px;}
+div.send_area > div.con_left > div.message_info > ul > li:first-child > span {position:relative;top:0;}
+div.send_area > div.con_left > div.message_info > p {display:none; padding:20px 0;border-bottom:1px solid #ddd;line-height:16px;}
+div.send_area > div.con_left > div.message_info > p > strong {font-weight:600;color:#333;}
+div.send_area > div.con_left > div.message_info > p.on {display:block;}
+
+div.send_area > div.con_left > div.caller_id {display:block;width:300px;height:43px;margin-top:20px;padding:5px;border-top:1px solid #ddd;border-right:1px solid #999;border-bottom:1px solid #999;border-left:1px solid #ddd;background:#f5f5f5;box-sizing:border-box;}
+div.send_area > div.con_left > div.caller_id > span.caller {padding:0 10px 0 5px;font-weight:600;color:#333;vertical-align:middle;}
+div.send_area > div.con_left > div.caller_id > select {width:116px;}
+
+div.send_area > div.con_right {margin-left:330px;}
+div.send_area > div.con_right > ul {}
+div.send_area > div.con_right > ul > li {padding-left:10px;line-height:20px;background:url("/img/manager/bl_dot.gif") 0 50% no-repeat;}
+div.send_area > div.con_right > ul > li > strong {color:#ff0000;}
+
+div.send_area > div.con_right table.write_table {position:relative;}
+div.send_area > div.con_right table.write_table tr th, div.send_area > div.con_right table.write_table tr td {padding:1em 10px;}
+div#typeRecipient div.recipient {margin-top:5px;}
+div#typeRecipient ul.receive_list {display:block;overflow-y:scroll;margin-top:10px;padding:10px 20px;width:272px;height:100px;border:1px solid #d8d8d8;}
+div#typeRecipient ul.receive_list li {position:relative;line-height:20px;}
+div#typeRecipient ul.receive_list li span.name {display:inline-block;width:100px;line-height:16px;}
+div#typeRecipient ul.receive_list li span.num {vertical-align:top;}
+div#typeRecipient ul.receive_list li button {display:inline-block;overflow:visible;position:absolute;top:5px;right:20px;width:10px;height:10px;margin:0;padding:0;border:none;font-size:12px;line-height:10px;background:#fff;color:#666;text-align:center;text-decoration:none !important;vertical-align:middle;white-space:nowrap;cursor:pointer;box-sizing:border-box;}
+div#typeRecipient p.total {margin:20px 0;}
+div#typeRecipient p.total strong {font-weight:600;color:#2460ce;}
+div#typeRecipient div.btn_total {position:absolute;top:195px;right:165px;}
+div#typeRecipient div.reservation {margin:15px 0 5px 0;}
+div#typeRecipient p.test {margin-top:10px;padding-left:10px;line-height:20px;background:url("/img/manager/bl_dot.gif") 0 50% no-repeat;}
+div#typeRecipient div.btn_test {margin:10px 0 20px 0;text-align:right;}
+
+div.send_area > div.con_right table.write_table tr td table.list_table {margin-top:10px;border-top:1px solid #d2d2d2;}
+div.send_area > div.con_right table.write_table tr td table.list_table tr th {padding:10px;border-right:0;text-align:center}
+div.send_area > div.con_right table.write_table tr td table.list_table tr td {padding:8px 10px;text-align:center}
+
+div.send_area > div.con_right table.write_table tr td table.write_table {margin:0;border-top:1px solid #d2d2d2;}
+div.send_area > div.con_right table.write_table tr td table.write_table tr th, div.send_area > div.con_right table.write_table tr td table.write_table tr td {padding:1em 10px;}
+div.send_area > div.con_right table.write_table tr td table.write_table tr td p {margin-top:5px;font-size:11px;}
+div.send_area > div.con_right table.write_table tr td table.write_table tr td p > span.receiveTotal,
+div.send_area > div.con_right table.write_table tr td table.write_table tr td p > span.rejectCount {font-weight:600;}
+
+div.send_area > div.con_right table.write_table input {margin: -2px 4px 0 2px;}
+div.send_area > div.con_right table.write_table input.checkbox {margin:-2px 0 0 0;}
+div.send_area > div.con_right table.write_table input.text {margin:0;text-align:center;}
+
+div.send_area > div.con_right div.btn_transmit {margin-top:30px;text-align:center;}
+
+/* 메시지 전송 버튼 */
+span.btn_set a, span.btn_set button, span.btn_set input {display:inline-block;overflow:visible;position:relative;width:90px;height:30px;margin:0;padding:0;border:1px solid #7584a3;font-size:12px;line-height:30px;background:#5c6b8b;color:#fff;text-align:center;text-decoration:none !important;vertical-align:middle;white-space:nowrap;cursor:pointer;box-sizing:border-box;}
+
+span.btn_set.sms a, span.btn_set.sms button, span.btn_set.sms input {width:86px;}
+span.btn_set.mms a, span.btn_set.mms button, span.btn_set.mms input {width:65px;}
+
+span.btn_set > .center {border-right:none;border-left:none;}
+span.btn_set > .center2 {border-right:none;}
+
+/* sms_send_member.php */
+div.sub_send {}
+
+div.send_area {margin-top:60px;}
+div.send_area:after {display:block;content:'';clear:both;}
+div.send_area > div.con_left {float:left;width:300px;}
+
+div.send_area > div.con_right {margin-left:330px;}
+div.send_area > div.con_right > div.tab_area_list > #typeRecipient > ul {margin-bottom:20px;}
+div.send_area > div.con_right > div.tab_area_list > #typeRecipient > ul > li {padding-left:10px;line-height:20px;background:url("/img/manager/bl_dot.gif") 0 50% no-repeat;}
+div.send_area > div.con_right > ul > li > strong {color:#ff0000;}
+
+div.send_area > div.con_right #typeRecipient {margin-bottom:40px;}
+/*
+div.send_area > div.con_right > div.memberSelect {margin-bottom:40px;padding:1em 10px;border-top:2px solid #646464;border-bottom:1px solid #d2d2d2;}
+div.send_area > div.con_right > div.memberSelect > div.selectArea {}
+div.send_area > div.con_right > div.memberSelect > div.selectArea label {margin-right:5px;}
+div.send_area > div.con_right > div.memberSelect > div.selectArea input {margin:-2px 4px 0 2px;}
+div.send_area > div.con_right > div.memberSelect > div.selectArea > p {margin-top:10px;}
+div.send_area > div.con_right > div.memberSelect > div.selectArea > p > strong {font-weight:600;}
+div.send_area > div.con_right > div.memberSelect > div.member_option {margin-top:10px;padding-top:10px;border-top:1px dotted #d2d2d2;}
+div.send_area > div.con_right > div.memberSelect > div.member_option > span {display:block;margin-top:6px;}
+div.send_area > div.con_right > div.memberSelect > div.member_option > span.num {display:inline-block;padding-left:15px;}
+div.send_area > div.con_right > div.memberSelect > div.member_option strong {font-weight:600;}
+*/
+div.send_area > div.con_right > div.tab_area_list > #memberSelect {margin-bottom:40px; border-bottom:1px solid #d2d2d2;}
+
+div.send_area > div.con_right > div.tab_area_list div.selectArea {padding:1em 10px;border-top:2px solid #646464;}
+div.send_area > div.con_right > div.tab_area_list div.selectArea label {margin-right:5px;}
+div.send_area > div.con_right > div.tab_area_list div.selectArea input {margin:-2px 4px 0 2px;}
+div.send_area > div.con_right > div.tab_area_list div.selectArea > p {margin-top:10px;}
+div.send_area > div.con_right > div.tab_area_list div.selectArea > p > strong {font-weight:600;}
+div.send_area > div.con_right > div.tab_area_list div.member_option {margin-top:10px; padding:10px 0;border-top:1px dotted #d2d2d2;}
+div.send_area > div.con_right > div.tab_area_list div.member_option > span {display:block;margin-top:6px;}
+div.send_area > div.con_right > div.tab_area_list div.member_option > span.num {display:inline-block;padding-left:15px;}
+div.send_area > div.con_right > div.tab_area_list div.member_option strong {font-weight:600;}
+
+
+div.send_area > div.con_right table.write_table {position:relative;}
+div.send_area > div.con_right table.write_table tr th, div.send_area > div.con_right table.write_table tr td {padding:1em 10px;}
+div.send_area > div.con_right table.write_table tr td div.recipient {margin-top:5px;}
+div.send_area > div.con_right table.write_table tr td p.total strong {font-weight:600;color:#2460ce;}
+div.send_area > div.con_right table.write_table tr td div.btn_total {position:absolute;top:195px;right:5px;}
+div.send_area > div.con_right table.write_table tr td div.reservation {margin:15px 0 5px 0;}
+div.send_area > div.con_right table.write_table tr td p.test {margin-top:10px;padding-left:10px;line-height:20px;background:url("/img/manager/bl_dot.gif") 0 50% no-repeat;}
+div.send_area > div.con_right table.write_table tr td div.btn_test {margin:10px 0 20px 0;text-align:right;}
+
+div#typeRecipient ul.receive_list {display:block;overflow-y:scroll;margin-top:10px;padding:10px 20px;width:318px;height:100px;border:1px solid #d8d8d8;}
+div#typeRecipient ul.receive_list li {position:relative;line-height:20px;}
+div#typeRecipient ul.receive_list li span.name {display:inline-block;width:120px;line-height:16px;}
+div#typeRecipient ul.receive_list li span.num {vertical-align:top;}
+div#typeRecipient ul.receive_list li button {display:inline-block;overflow:visible;position:absolute;top:5px;right:20px;width:10px;height:10px;margin:0;padding:0;border:none;font-size:12px;line-height:10px;background:#fff;color:#666;text-align:center;text-decoration:none !important;vertical-align:middle;white-space:nowrap;cursor:pointer;box-sizing:border-box;}
+div#typeRecipient p.total {margin:20px 0;}
+
+div.send_area > div.con_right table.write_table tr td table.list_table {margin-top:10px;border-top:1px solid #d2d2d2;}
+div.send_area > div.con_right table.write_table tr td table.list_table tr th {padding:10px;border-right:0;text-align:center}
+div.send_area > div.con_right table.write_table tr td table.list_table tr td {padding:8px 10px;text-align:center}
+
+div.send_area > div.con_right table.write_table tr td table.write_table {margin:0;border-top:1px solid #d2d2d2;}
+div.send_area > div.con_right table.write_table tr td table.write_table tr th, div.send_area > div.con_right table.write_table tr td table.write_table tr td {padding:1em 10px;}
+div.send_area > div.con_right table.write_table tr td table.write_table tr td p {margin-top:5px;font-size:11px;}
+div.send_area > div.con_right table.write_table tr td table.write_table tr td p > span.receiveTotal,
+div.send_area > div.con_right table.write_table tr td table.write_table tr td p > span.rejectCount {font-weight:600;}
+
+div.send_area > div.con_right table.write_table label {margin-right:5px;}
+div.send_area > div.con_right table.write_table input {margin: -2px 4px 0 2px;}
+div.send_area > div.con_right table.write_table input.checkbox {margin:-2px 0 0 0;}
+div.send_area > div.con_right table.write_table input.text {margin:0;text-align:center;}
+
+div.send_area > div.con_right div.btn_transmit {margin-top:30px;text-align:center;}
+
+/* layer_modify_reservation.php */
+div.sub_send > table.list_table tr td a.edit {display:inline-block;overflow:visible;position:relative;width:12px;height:12px;margin:-2px 0 0 4px;padding:0;border:none;font-size:12px;line-height:10px;background:none;color:#538fd4;text-align:center;text-decoration:none !important;vertical-align:middle;white-space:nowrap;cursor:pointer;box-sizing:border-box;}
+
+div.sub_send > table.list_table tr td.content {font-size:12px;}
+div.sub_send > table.list_table tr td.content p.message_con {overflow:hidden;max-width:260px;white-space:nowrap;text-overflow:ellipsis;}
+
+
+/* Payment */
+div.sub_payment {position:relative;}
+div.sub_payment p.vat {position:absolute;top:122px;right:0;}
+div.sub_payment p.button {margin:30px 0 60px 0;}
+
+div.sub_payment div.info_box.last {margin-top:20px;}
+div.sub_payment div.info_box.last > ul {}
+div.sub_payment div.info_box.last > ul > li {padding-left:10px;line-height:20px;background:url("/img/manager/bl_dot.gif") 0 50% no-repeat;}

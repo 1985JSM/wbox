@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+#write_tbody.cp_type_C tr.cp_sale_price,
+#write_tbody.cp_type_E tr.cp_sale_price,
+#write_tbody.cp_type_F tr.cp_sale_price,
+#write_tbody.cp_type_P tr.cp_sale_price { display:none; }
+

@@ -1,0 +1,15 @@
+div.sub_box:after {display:block;content:'';clear:both}
+div.sub_box div.box_list {float:left;width:180px;height:200px;margin:0 13px 15px 0;border:1px solid #ddd;}
+div.sub_box div.box_list > textarea.messageBox {overflow:auto;width:150px;height:100px;margin:30px 10px 20px 10px;padding:5px;border:none;line-height:20px;background:transparent;color:#666;resize:none;}
+div.sub_box div.box_list > div.btn_area {text-align:center;}
+
+div.sub_box div.messageAdd {border:1px solid #2460ce;background:#2460ce;}
+div.sub_box div.messageAdd > div.btn_add {padding:56px 30px 0 30px;text-align:center;}
+div.sub_box div.messageAdd > div.btn_add > button.more {display:inline-block;overflow:visible;position:relative;width:36px;height:36px;margin:0;padding:0;border:none;font-size:12px;background: none;color:#fff;text-align:center;text-decoration:none !important;vertical-align:middle;white-space:nowrap;cursor:pointer;box-sizing:border-box;}
+div.sub_box div.messageAdd > div.btn_add > span {display:inline-block;padding-top:30px;line-height:16px;color:#fff;}
+div.sub_box div.messageAdd > textarea.messageBox {overflow:auto;width:150px;height:100px;margin:30px 10px 20px 10px;padding:5px;border:none;line-height:20px;background:transparent;color:#fff;resize:none;}
+
+label > input {margin:-2px 5px 0 0;vertical-align:middle;}
+
+div.sub_member fieldset table.list_table tr td ul li:first-child {margin:0;}
+div.sub_member fieldset table.list_table tr td ul li {margin-top:8px;}

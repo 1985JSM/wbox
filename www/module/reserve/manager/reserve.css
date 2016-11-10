@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+p.infomation {display:block; margin-bottom:30px; color:#e95a72!important}
+p.infomation strong {font-weight:bold;}
+
+div.sale_info {margin-bottom:30px;}
+
+table tr td.different input { color:#e95a72!important; border:1px solid #de234f; }
+
+div.sale_info table tr th.stress, div.sale_info table tr td.stress{background:#ffffdc}
+div.sales_list input.pm_cash_price:focus, input.pm_cash_price:active, input.pm_cash_price:hover {background:#ffffdc }
+
+input.member_search {background:url("./img/bg_member_serch.gif") 0 0 no-repeat #fff}
+
+/* 매출관리 */
+div.sale_info {margin-bottom:30px;}
+table.sales > tbody > tr > td {padding:14px 0}
+table.sales > tbody > tr > td.total {background:#e7faff}
+table.sales > tbody > tr > td.sale {background:#ffffdc; color:#999;}
+table.sales > tbody > tr > td.prepayment {background:#fde9d9; color:#999;}
+table.sales > tbody > tr > td > strong.total {font-size:14px;font-weight:bold;}
+table.sales > tbody > tr > td > ul.box {padding:10px 20px; margin-top:10px; border-top:1px dotted #A9A9A9;}
+table.sales > tbody > tr > td > ul:after {display:block; content:""; clear:both;}
+table.sales > tbody > tr > td > ul.box li:after {display:block; content:""; clear:both;}
+table.sales > tbody > tr > td > ul.box li {position:relative; display:block; }
+table.sales > tbody > tr > td > ul.box strong {float:left; color:#6e6e6e;}
+table.sales > tbody > tr > td > ul.box span {float:right; color:#6e6e6e;}
+
+table.sales > tbody > tr > td.sale > ul.box {height:55px;}
+table.sales > tbody > tr > td.sale > ul.box li strong {}
+
+table.sales > tbody > tr > td.prepayment > ul.box {height:55px;}
+
+div.scroll_table {}
+div.scroll_table {height:auto; max-height:550px; overflow-x:hidden; overflow-y:scroll;}
+div.scroll_table table.list_table {border-top:0;}

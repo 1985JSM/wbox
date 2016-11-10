@@ -1,0 +1,902 @@
+[2016-10-24 22:00:34][192.168.31.103][jssim]	Array
+(
+    [sh_code] => QI09L4EF8D30
+    [st_id] => QI09N2EE6F56
+    [rs_date] => 2016-10-24
+    [rs_time] => 16:00
+    [reg_id] => jssim
+    [reg_time] => 2016-10-24 22:00:32
+    [sh_name] => 인플러스(테스트)
+    [st_name] => 심진석 사원
+    [sv_ids] => 327
+    [sv_names] => 상담
+    [sv_time] => 30
+    [sv_price] => 4990
+    [rs_type] => M
+    [rs_state] => W
+    [cs_id] => 715
+    [us_id] => 
+    [us_name] => test
+    [us_hp] => 24334234
+    [rs_user_memo] => 
+    [rs_pay_memo] => 
+    [pm_sale_price] => 0
+    [cp_id] => 
+    [pm_coupon_price] => 0
+    [ad_pc_id] => 
+    [pm_advance_price] => 0
+    [pm_card_price] => 0
+    [pm_cash_price] => 0
+    [rs_id] => 546
+    [pk] => rs_id
+)
+
+[2016-10-24 22:01:48][192.168.31.103][jssim]	Array
+(
+    [sh_code] => QI09L4EF8D30
+    [st_id] => QI30Q5FC3C43
+    [rs_date] => 2016-10-24
+    [rs_time] => 12:30
+    [reg_id] => jssim
+    [reg_time] => 2016-10-24 22:01:46
+    [sh_name] => 인플러스(테스트)
+    [st_name] => 심진석1 사원
+    [sv_ids] => 351
+    [sv_names] => 상담2
+    [sv_time] => 60
+    [sv_price] => 1
+    [rs_type] => M
+    [rs_state] => W
+    [cs_id] => 715
+    [us_id] => 
+    [us_name] => test
+    [us_hp] => 24334234
+    [rs_user_memo] => 
+    [rs_pay_memo] => 
+    [pm_sale_price] => 0
+    [cp_id] => 
+    [pm_coupon_price] => 0
+    [ad_pc_id] => 
+    [pm_advance_price] => 0
+    [pm_card_price] => 0
+    [pm_cash_price] => 0
+    [rs_id] => 548
+    [pk] => rs_id
+)
+
+[2016-10-24 22:02:48][192.168.31.103][jssim]	Push Object
+(
+    [result:protected] => Array
+        (
+            [code] => error
+        )
+
+    [values:protected] => Array
+        (
+            [data_table] => 
+            [search_field] => 
+            [pk] => uid
+            [order_direct] => desc
+            [group_field] => 
+            [file_table] => tbl_file
+            [file_pk] => file_id
+            [max_file] => 0
+            [flag_use_thumb] => 
+            [thumb_width] => 0
+            [thumb_height] => 0
+            [no_image] => 
+            [is_crop] => 1
+            [cnt_rows] => 10
+            [cnt_page] => 5
+            [order_direct_arr] => Array
+                (
+                    [asc] => 오름차순
+                    [desc] => 내림차순
+                )
+
+            [cnt_rows_arr] => Array
+                (
+                    [1] => 1개씩
+                    [10] => 10개씩
+                    [20] => 20개씩
+                    [30] => 30개씩
+                    [50] => 50개씩
+                    [100] => 100개씩
+                )
+
+            [keyword_element] => 
+            [keyword_class] => 
+            [sch_date_arr] => Array
+                (
+                    [0] => 2016-10-24
+                    [1] => 2016-10-22
+                    [2] => 2016-10-18
+                    [3] => 2016-09-25
+                )
+
+            [page] => 1
+            [no_upload_file] => php,asp,jsp,html,html,js,css
+        )
+
+)
+
+[2016-10-24 22:03:52][192.168.31.103][jssim]	Array
+(
+    [sh_code] => QI09L4EF8D30
+    [st_id] => QI09N2EE6F56
+    [rs_date] => 2016-10-24
+    [rs_time] => 08:30
+    [reg_id] => jssim
+    [reg_time] => 2016-10-24 22:03:51
+    [sh_name] => 인플러스(테스트)
+    [st_name] => 심진석 사원
+    [sv_ids] => 359
+    [sv_names] => 테스트1
+    [sv_time] => 30
+    [sv_price] => 8000
+    [rs_type] => M
+    [rs_state] => W
+    [cs_id] => 715
+    [us_id] => 
+    [us_name] => test
+    [us_hp] => 24334234
+    [rs_user_memo] => 
+    [rs_pay_memo] => 
+    [pm_sale_price] => 0
+    [cp_id] => 
+    [pm_coupon_price] => 0
+    [ad_pc_id] => 
+    [pm_advance_price] => 0
+    [pm_card_price] => 0
+    [pm_cash_price] => 0
+    [rs_id] => 551
+    [pk] => rs_id
+)
+Push Object
+(
+    [result:protected] => Array
+        (
+            [code] => error
+        )
+
+    [values:protected] => Array
+        (
+            [data_table] => 
+            [search_field] => 
+            [pk] => uid
+            [order_direct] => desc
+            [group_field] => 
+            [file_table] => tbl_file
+            [file_pk] => file_id
+            [max_file] => 0
+            [flag_use_thumb] => 
+            [thumb_width] => 0
+            [thumb_height] => 0
+            [no_image] => 
+            [is_crop] => 1
+            [cnt_rows] => 10
+            [cnt_page] => 5
+            [order_direct_arr] => Array
+                (
+                    [asc] => 오름차순
+                    [desc] => 내림차순
+                )
+
+            [cnt_rows_arr] => Array
+                (
+                    [1] => 1개씩
+                    [10] => 10개씩
+                    [20] => 20개씩
+                    [30] => 30개씩
+                    [50] => 50개씩
+                    [100] => 100개씩
+                )
+
+            [keyword_element] => 
+            [keyword_class] => 
+            [sch_date_arr] => Array
+                (
+                    [0] => 2016-10-24
+                    [1] => 2016-10-22
+                    [2] => 2016-10-18
+                    [3] => 2016-09-25
+                )
+
+            [page] => 1
+            [no_upload_file] => php,asp,jsp,html,html,js,css
+        )
+
+)
+
+[2016-10-24 22:06:57][192.168.31.103][jssim]	Array
+(
+    [sh_code] => QI09L4EF8D30
+    [st_id] => QI09N2EE6F56
+    [rs_date] => 2016-10-24
+    [rs_time] => 09:00
+    [reg_id] => jssim
+    [reg_time] => 2016-10-24 22:06:55
+    [sh_name] => 인플러스(테스트)
+    [st_name] => 심진석 사원
+    [sv_ids] => 359
+    [sv_names] => 테스트1
+    [sv_time] => 30
+    [sv_price] => 8000
+    [rs_type] => M
+    [rs_state] => W
+    [cs_id] => 715
+    [us_id] => 
+    [us_name] => test
+    [us_hp] => 24334234
+    [rs_user_memo] => 
+    [rs_pay_memo] => 
+    [pm_sale_price] => 0
+    [cp_id] => 
+    [pm_coupon_price] => 0
+    [ad_pc_id] => 
+    [pm_advance_price] => 0
+    [pm_card_price] => 0
+    [pm_cash_price] => 0
+    [rs_id] => 554
+    [pk] => rs_id
+)
+Push Object
+(
+    [result:protected] => Array
+        (
+            [code] => error
+        )
+
+    [values:protected] => Array
+        (
+            [data_table] => tbl_push
+            [search_field] => sh_code
+            [pk] => push_id
+            [order_direct] => desc
+            [group_field] => 
+            [file_table] => tbl_file
+            [file_pk] => file_id
+            [max_file] => 0
+            [flag_use_thumb] => 
+            [thumb_width] => 0
+            [thumb_height] => 0
+            [no_image] => 
+            [is_crop] => 1
+            [cnt_rows] => 10
+            [cnt_page] => 5
+            [order_direct_arr] => Array
+                (
+                    [asc] => 오름차순
+                    [desc] => 내림차순
+                )
+
+            [cnt_rows_arr] => Array
+                (
+                    [1] => 1개씩
+                    [10] => 10개씩
+                    [20] => 20개씩
+                    [30] => 30개씩
+                    [50] => 50개씩
+                    [100] => 100개씩
+                )
+
+            [keyword_element] => 
+            [keyword_class] => 
+            [sch_date_arr] => Array
+                (
+                    [0] => 2016-10-24
+                    [1] => 2016-10-22
+                    [2] => 2016-10-18
+                    [3] => 2016-09-25
+                )
+
+            [page] => 1
+            [no_upload_file] => php,asp,jsp,html,html,js,css
+            [module] => push
+            [module_name] => 푸시
+            [push_mode] => service
+            [android_user_key] => AIzaSyA40InqQIQnBnwed6ojTQUwcTJUzNc8x7Y
+            [android_staff_key] => AIzaSyAThpOxZk7_Tri12LrJp6Dxy1tq80VV2YM
+            [config_table] => tbl_push_config
+            [ps_cf_pk] => ps_cf_code
+            [sch_type_arr] => Array
+                (
+                    [push_title] => 제목
+                    [push_content] => 내용
+                )
+
+            [push_type_arr] => Array
+                (
+                    [reply_review] => 리뷰 답변
+                    [CP] => 예약 재확인
+                )
+
+            [week_arr] => Array
+                (
+                    [0] => 일
+                    [1] => 월
+                    [2] => 화
+                    [3] => 수
+                    [4] => 목
+                    [5] => 금
+                    [6] => 토
+                )
+
+            [push_config] => Array
+                (
+                    [reserve_to_staff] => Array
+                        (
+                            [title] => 예약 신청 안내
+                            [content] => {예약자명}님의 예약이 접수 되었습니다. 승인여부 버튼을 눌러주세요.
+                            [url] => /webstaff/reserve/wait_list.html
+                            [memo] => 예약미신청 상태의 사용자가 예약신청을 하는 경우 담당자에게 발송되는 메시지
+                            [receiver] => 담당자
+                        )
+
+                    [accept_to_user] => Array
+                        (
+                            [title] => 담당자 승인 안내
+                            [content] => {매장명} 담당자가 예약을 승인하였습니다.
+                            [url] => /webuser/reserve/list.html
+                            [memo] => 예약 신청중 사용자의 예약을 담당자가 예약확정을 하는 경우 사용자에게 발송되는 메시지
+                            [receiver] => 사용자
+                        )
+
+                    [progress_to_staff] => Array
+                        (
+                            [title] => 예약 확정 안내
+                            [content] => {예약자명}님이 {예약일시}예약을 확정하였습니다. 
+                            [url] => /webstaff/reserve/wait_list.html
+                            [memo] => 담당자가 승인해준 예약을 사용자가 예약 진행을 하는 경우 담당자에게 발송되는 메시지
+                            [receiver] => 담당자
+                        )
+
+                    [modify_to_user] => Array
+                        (
+                            [title] => 담당자 예약 변경 안내
+                            [content] => {매장명} 담당자가 예약을 변경하였습니다.
+                            [url] => /webuser/reserve/list.html
+                            [memo] => 담당자가 예약을 변경한 경우 사용자에게 발송되는 메시지
+                            [receiver] => 사용자
+                        )
+
+                    [modify_to_staff] => Array
+                        (
+                            [title] => 사용자 예약 변경 안내
+                            [content] => {예약자명}님이 {예약일시}예약을 변경하였습니다
+                            [url] => /webstaff/reserve/wait_list.html
+                            [memo] => 사용자가 예약을 변경하는 경우 담당자에게 발송되는 메시지
+                            [receiver] => 담당자
+                        )
+
+                    [cancel_to_user] => Array
+                        (
+                            [title] => 담당자 예약 취소
+                            [content] => {매장명} 담당자가 예약을 취소하였습니다.
+                            [url] => /webuser/reserve/list.html
+                            [memo] => 담당자 또는 가맹점 관리자가 사용자의 예약을 취소하는 경우 또는 담당자가 예약을 승인불가한 경우 사용자에게 발송되는 메시지
+                            [receiver] => 사용자
+                        )
+
+                    [cancel_to_staff] => Array
+                        (
+                            [title] => 사용자 예약 취소
+                            [content] => {예약자명}님이 {예약일시}예약을 취소하였습니다
+                            [url] => /webstaff/reserve/end_list.html
+                            [memo] => 예약 신청중 사용자가 예약을 취소하는 경우 담당자에게 발송되는 메시지
+                            [receiver] => 담당자
+                        )
+
+                    [auto_to_user] => Array
+                        (
+                            [title] => 예약 비정상 취소
+                            [content] => {예약자명}님, 예약시간까지 매장에 방문하지 않아 예약이 취소되었습니다.
+                            [url] => /webuser/reserve/list.html
+                            [memo] => 예약진행이 아닌 상태에서 예약 일시에 매장을 방문하지 않은 경우 사용자에게 발송되는 메시지
+                            [receiver] => 사용자
+                        )
+
+                    [auto_to_staff] => Array
+                        (
+                            [title] => 예약 비정상 취소
+                            [content] => {예약자명}님이, 예약시간까지 매장에 방문하지 않아 예약이 취소되었습니다.
+                            [url] => /webstaff/reserve/end_list.html
+                            [memo] => 예약진행이 아닌 상태에서 예약 일시에 사용자가 매장을 방문하지 않은 경우 담당자에게 발송되는 메시지
+                            [receiver] => 담당자
+                        )
+
+                    [pass_to_staff] => Array
+                        (
+                            [title] => 예약 경과
+                            [content] => {예약자명}님에게 서비스가 정상 제공되었다면 예약을 완료 처리해주세요.
+                            [url] => /webstaff/reserve/wait_list.html
+                            [memo] => 예약확정을 한 사용자가 예약한 일시가 지나간 경우 사용자의 상태 변경을 위해 담당자에게 발송되는 메시지
+                            [receiver] => 담당자
+                        )
+
+                    [remain_to_user] => Array
+                        (
+                            [title] => 예약 시간 알림
+                            [content] => {예약자명}님, 예약박스의 예약 {남은시간} 전입니다. 안잊으셨죠??
+                            [url] => /webuser/reserve/list.html
+                            [memo] => 
+사용자가 예약한 일시 기준으로 남은 시간 알림 메시지 (1시간 전, 10분 단위)
+                            [receiver] => 사용자
+                        )
+
+                    [finish_to_user] => Array
+                        (
+                            [title] => 만족하셨나요?
+                            [content] => {매장명} 서비스가 정상적으로 제공되었습니다. 예약박스를 이용해주셔서 감사합니다.
+                            [url] => /webuser/reserve/list.html
+                            [memo] => 담당자가 예약상태를 예약완료로 변경하는 경우 사용자에게 발송되는 메시지
+                            [receiver] => 사용자
+                        )
+
+                    [reply_to_user] => Array
+                        (
+                            [title] => 1:1문의 답변 안내
+                            [content] => {작성자명}님, 1:1문의 답변 처리가 완료되었습니다. 감사합니다.
+                            [url] => /webuser/qna/list.html
+                            [memo] => 사용자가 1:1 문의시 최고관리자(예약박스)가 답변을 작성한 경우
+                            [receiver] => 사용자
+                        )
+
+                )
+
+            [uid] => 
+            [file_uid] => 
+            [query_string] => 
+        )
+
+)
+
+[2016-10-24 22:07:55][192.168.31.103][jssim]	Array
+(
+    [title] => 예약 신청 안내
+    [content] => test님의 예약이 접수 되었습니다. 승인여부 버튼을 눌러주세요.
+    [url] => /webstaff/reserve/wait_list.html
+    [memo] => 예약미신청 상태의 사용자가 예약신청을 하는 경우 담당자에게 발송되는 메시지
+    [receiver] => 담당자
+)
+Array
+(
+    [sh_code] => QI09L4EF8D30
+    [st_id] => QI09N2EE6F56
+    [rs_date] => 2016-10-24
+    [rs_time] => 09:30
+    [reg_id] => jssim
+    [reg_time] => 2016-10-24 22:07:54
+    [sh_name] => 인플러스(테스트)
+    [st_name] => 심진석 사원
+    [sv_ids] => 327
+    [sv_names] => 상담
+    [sv_time] => 30
+    [sv_price] => 4990
+    [rs_type] => M
+    [rs_state] => W
+    [cs_id] => 715
+    [us_id] => 
+    [us_name] => test
+    [us_hp] => 24334234
+    [rs_user_memo] => 
+    [rs_pay_memo] => 
+    [pm_sale_price] => 0
+    [cp_id] => 
+    [pm_coupon_price] => 0
+    [ad_pc_id] => 
+    [pm_advance_price] => 0
+    [pm_card_price] => 0
+    [pm_cash_price] => 0
+    [rs_id] => 555
+    [pk] => rs_id
+)
+Push Object
+(
+    [result:protected] => Array
+        (
+            [code] => error
+        )
+
+    [values:protected] => Array
+        (
+            [data_table] => tbl_push
+            [search_field] => sh_code
+            [pk] => push_id
+            [order_direct] => desc
+            [group_field] => 
+            [file_table] => tbl_file
+            [file_pk] => file_id
+            [max_file] => 0
+            [flag_use_thumb] => 
+            [thumb_width] => 0
+            [thumb_height] => 0
+            [no_image] => 
+            [is_crop] => 1
+            [cnt_rows] => 10
+            [cnt_page] => 5
+            [order_direct_arr] => Array
+                (
+                    [asc] => 오름차순
+                    [desc] => 내림차순
+                )
+
+            [cnt_rows_arr] => Array
+                (
+                    [1] => 1개씩
+                    [10] => 10개씩
+                    [20] => 20개씩
+                    [30] => 30개씩
+                    [50] => 50개씩
+                    [100] => 100개씩
+                )
+
+            [keyword_element] => 
+            [keyword_class] => 
+            [sch_date_arr] => Array
+                (
+                    [0] => 2016-10-24
+                    [1] => 2016-10-22
+                    [2] => 2016-10-18
+                    [3] => 2016-09-25
+                )
+
+            [page] => 1
+            [no_upload_file] => php,asp,jsp,html,html,js,css
+            [module] => push
+            [module_name] => 푸시
+            [push_mode] => service
+            [android_user_key] => AIzaSyA40InqQIQnBnwed6ojTQUwcTJUzNc8x7Y
+            [android_staff_key] => AIzaSyAThpOxZk7_Tri12LrJp6Dxy1tq80VV2YM
+            [config_table] => tbl_push_config
+            [ps_cf_pk] => ps_cf_code
+            [sch_type_arr] => Array
+                (
+                    [push_title] => 제목
+                    [push_content] => 내용
+                )
+
+            [push_type_arr] => Array
+                (
+                    [reply_review] => 리뷰 답변
+                    [CP] => 예약 재확인
+                )
+
+            [week_arr] => Array
+                (
+                    [0] => 일
+                    [1] => 월
+                    [2] => 화
+                    [3] => 수
+                    [4] => 목
+                    [5] => 금
+                    [6] => 토
+                )
+
+            [push_config] => Array
+                (
+                    [reserve_to_staff] => Array
+                        (
+                            [title] => 예약 신청 안내
+                            [content] => {예약자명}님의 예약이 접수 되었습니다. 승인여부 버튼을 눌러주세요.
+                            [url] => /webstaff/reserve/wait_list.html
+                            [memo] => 예약미신청 상태의 사용자가 예약신청을 하는 경우 담당자에게 발송되는 메시지
+                            [receiver] => 담당자
+                        )
+
+                    [accept_to_user] => Array
+                        (
+                            [title] => 담당자 승인 안내
+                            [content] => {매장명} 담당자가 예약을 승인하였습니다.
+                            [url] => /webuser/reserve/list.html
+                            [memo] => 예약 신청중 사용자의 예약을 담당자가 예약확정을 하는 경우 사용자에게 발송되는 메시지
+                            [receiver] => 사용자
+                        )
+
+                    [progress_to_staff] => Array
+                        (
+                            [title] => 예약 확정 안내
+                            [content] => {예약자명}님이 {예약일시}예약을 확정하였습니다. 
+                            [url] => /webstaff/reserve/wait_list.html
+                            [memo] => 담당자가 승인해준 예약을 사용자가 예약 진행을 하는 경우 담당자에게 발송되는 메시지
+                            [receiver] => 담당자
+                        )
+
+                    [modify_to_user] => Array
+                        (
+                            [title] => 담당자 예약 변경 안내
+                            [content] => {매장명} 담당자가 예약을 변경하였습니다.
+                            [url] => /webuser/reserve/list.html
+                            [memo] => 담당자가 예약을 변경한 경우 사용자에게 발송되는 메시지
+                            [receiver] => 사용자
+                        )
+
+                    [modify_to_staff] => Array
+                        (
+                            [title] => 사용자 예약 변경 안내
+                            [content] => {예약자명}님이 {예약일시}예약을 변경하였습니다
+                            [url] => /webstaff/reserve/wait_list.html
+                            [memo] => 사용자가 예약을 변경하는 경우 담당자에게 발송되는 메시지
+                            [receiver] => 담당자
+                        )
+
+                    [cancel_to_user] => Array
+                        (
+                            [title] => 담당자 예약 취소
+                            [content] => {매장명} 담당자가 예약을 취소하였습니다.
+                            [url] => /webuser/reserve/list.html
+                            [memo] => 담당자 또는 가맹점 관리자가 사용자의 예약을 취소하는 경우 또는 담당자가 예약을 승인불가한 경우 사용자에게 발송되는 메시지
+                            [receiver] => 사용자
+                        )
+
+                    [cancel_to_staff] => Array
+                        (
+                            [title] => 사용자 예약 취소
+                            [content] => {예약자명}님이 {예약일시}예약을 취소하였습니다
+                            [url] => /webstaff/reserve/end_list.html
+                            [memo] => 예약 신청중 사용자가 예약을 취소하는 경우 담당자에게 발송되는 메시지
+                            [receiver] => 담당자
+                        )
+
+                    [auto_to_user] => Array
+                        (
+                            [title] => 예약 비정상 취소
+                            [content] => {예약자명}님, 예약시간까지 매장에 방문하지 않아 예약이 취소되었습니다.
+                            [url] => /webuser/reserve/list.html
+                            [memo] => 예약진행이 아닌 상태에서 예약 일시에 매장을 방문하지 않은 경우 사용자에게 발송되는 메시지
+                            [receiver] => 사용자
+                        )
+
+                    [auto_to_staff] => Array
+                        (
+                            [title] => 예약 비정상 취소
+                            [content] => {예약자명}님이, 예약시간까지 매장에 방문하지 않아 예약이 취소되었습니다.
+                            [url] => /webstaff/reserve/end_list.html
+                            [memo] => 예약진행이 아닌 상태에서 예약 일시에 사용자가 매장을 방문하지 않은 경우 담당자에게 발송되는 메시지
+                            [receiver] => 담당자
+                        )
+
+                    [pass_to_staff] => Array
+                        (
+                            [title] => 예약 경과
+                            [content] => {예약자명}님에게 서비스가 정상 제공되었다면 예약을 완료 처리해주세요.
+                            [url] => /webstaff/reserve/wait_list.html
+                            [memo] => 예약확정을 한 사용자가 예약한 일시가 지나간 경우 사용자의 상태 변경을 위해 담당자에게 발송되는 메시지
+                            [receiver] => 담당자
+                        )
+
+                    [remain_to_user] => Array
+                        (
+                            [title] => 예약 시간 알림
+                            [content] => {예약자명}님, 예약박스의 예약 {남은시간} 전입니다. 안잊으셨죠??
+                            [url] => /webuser/reserve/list.html
+                            [memo] => 
+사용자가 예약한 일시 기준으로 남은 시간 알림 메시지 (1시간 전, 10분 단위)
+                            [receiver] => 사용자
+                        )
+
+                    [finish_to_user] => Array
+                        (
+                            [title] => 만족하셨나요?
+                            [content] => {매장명} 서비스가 정상적으로 제공되었습니다. 예약박스를 이용해주셔서 감사합니다.
+                            [url] => /webuser/reserve/list.html
+                            [memo] => 담당자가 예약상태를 예약완료로 변경하는 경우 사용자에게 발송되는 메시지
+                            [receiver] => 사용자
+                        )
+
+                    [reply_to_user] => Array
+                        (
+                            [title] => 1:1문의 답변 안내
+                            [content] => {작성자명}님, 1:1문의 답변 처리가 완료되었습니다. 감사합니다.
+                            [url] => /webuser/qna/list.html
+                            [memo] => 사용자가 1:1 문의시 최고관리자(예약박스)가 답변을 작성한 경우
+                            [receiver] => 사용자
+                        )
+
+                )
+
+            [uid] => 
+            [file_uid] => 
+            [query_string] => 
+        )
+
+)
+
+[2016-10-24 22:14:38][192.168.31.103][jssim]	Array
+(
+    [rc_no] => Array
+        (
+            [0] => 23412
+            [1] => 323423
+            [2] => 142323
+        )
+
+    [use] => Y
+    [data] => Array
+        (
+            [reserve_to_staff] => Array
+                (
+                    [use] => Y
+                )
+
+            [accept_to_user] => Array
+                (
+                    [use] => Y
+                )
+
+        )
+
+)
+Array
+(
+    [title] => 예약 신청 안내
+    [content] => 홍길동님의 예약이 접수 되었습니다. 승인여부 버튼을 눌러주세요.
+    [url] => /webstaff/reserve/wait_list.html
+    [memo] => 예약미신청 상태의 사용자가 예약신청을 하는 경우 담당자에게 발송되는 메시지
+    [receiver] => 담당자
+)
+Array
+(
+    [mb_id] => 
+    [sh_code] => 
+    [mb_pass] => 
+    [mb_level] => 
+    [gr_code] => 
+    [mb_name] => 
+    [mb_nick] => 
+    [mb_position] => 
+    [mb_email] => 
+    [mb_hp] => 
+    [mb_pr] => 
+    [sv_code] => 
+    [s_work] => 
+    [e_work] => 
+    [s_break] => 
+    [e_break] => 
+    [holidays] => 
+    [st_order] => 
+    [login_ip] => 
+    [mb_push_os] => 
+    [mb_push_id] => 
+    [flag_use_push] => 
+    [login_time] => 
+    [logout_time] => 
+    [flag_no_login] => 
+    [reg_id] => 
+    [reg_time] => 
+    [upt_id] => 
+    [upt_time] => 
+    [sh_name] => 
+    [cnt_service] => 0
+    [cnt_like] => 
+    [reg_date] => 
+    [upt_date] => 
+    [file_list] => 
+    [thumb] => /img/mobile/common/s_logo2.png
+    [txt_mb_level] => 
+    [txt_staff] => 
+    [txt_sv_code] => 
+)
+
+[2016-10-24 22:16:56][192.168.31.103][jssim]	Array
+(
+    [rc_no] => Array
+        (
+            [0] => 23412
+            [1] => 323423
+            [2] => 142323
+        )
+
+    [use] => Y
+    [data] => Array
+        (
+            [reserve_to_staff] => Array
+                (
+                    [use] => Y
+                )
+
+            [accept_to_user] => Array
+                (
+                    [use] => Y
+                )
+
+        )
+
+)
+Array
+(
+    [title] => 예약 신청 안내
+    [content] => 마용민님의 예약이 접수 되었습니다. 승인여부 버튼을 눌러주세요.
+    [url] => /webstaff/reserve/wait_list.html
+    [memo] => 예약미신청 상태의 사용자가 예약신청을 하는 경우 담당자에게 발송되는 메시지
+    [receiver] => 담당자
+)
+Array
+(
+    [mb_id] => QI09N2EE6F56
+    [sh_code] => QI09L4EF8D30
+    [mb_pass] => 31199915228bd116
+    [mb_level] => 7
+    [gr_code] => 
+    [mb_name] => 심진석
+    [mb_nick] => 진석
+    [mb_position] => 사원
+    [mb_email] => jssim@inplusweb.com
+    [mb_hp] => 01025159125
+    [mb_pr] => 개발자
+    [sv_code] => 327|356|358|359|361|363
+    [s_work] => 08:30
+    [e_work] => 18:00
+    [s_break] => 12:00
+    [e_break] => 13:30
+    [holidays] => 2016-08-01|00:00|2016-08-05|00:00||여름휴가
+    [st_order] => 1
+    [login_ip] => 192.168.31.103
+    [mb_push_os] => I
+    [mb_push_id] => 21237be4a13b8b1d125c9d63f8141118302a6060a309eee32eb46a7a6d974b85
+    [flag_use_push] => Y
+    [login_time] => 2016-10-13 10:47:46
+    [logout_time] => 2016-09-27 19:32:09
+    [flag_no_login] => 
+    [reg_id] => jssim
+    [reg_time] => 2016-08-09 13:24:46
+    [upt_id] => QI09N2EE6F56
+    [upt_time] => 0000-00-00 00:00:00
+    [sh_name] => 인플러스(테스트)
+    [cnt_service] => 11
+    [cnt_like] => 0
+    [reg_date] => 2016.08.09
+    [upt_date] => -
+    [file_list] => 
+    [thumb] => /img/mobile/common/s_logo2.png
+    [txt_mb_level] => 담당자
+    [txt_staff] => 심진석 사원
+    [txt_sv_code] => 상담,상담3,상담5,테스트1,테스트3,테스트5
+    [holiday_list] => Array
+        (
+            [0] => Array
+                (
+                    [s_hl_date] => 2016-08-01
+                    [s_hl_time] => 00:00
+                    [e_hl_date] => 2016-08-05
+                    [e_hl_time] => 00:00
+                    [hl_all_time] => 
+                    [hl_memo] => 여름휴가
+                )
+
+        )
+
+)
+Array
+(
+    [sh_code] => QI09L4EF8D30
+    [st_id] => QI09N2EE6F56
+    [rs_date] => 2016-10-24
+    [rs_time] => 10:30
+    [reg_id] => jssim
+    [reg_time] => 2016-10-24 22:16:54
+    [sh_name] => 인플러스(테스트)
+    [st_name] => 심진석 사원
+    [sv_ids] => 359
+    [sv_names] => 테스트1
+    [sv_time] => 30
+    [sv_price] => 8000
+    [rs_type] => M
+    [rs_state] => W
+    [cs_id] => 687
+    [us_id] => QG09Q2IE2C44
+    [us_name] => 마용민
+    [us_hp] => 01077283681
+    [rs_user_memo] => 
+    [rs_pay_memo] => 
+    [pm_sale_price] => 0
+    [cp_id] => 
+    [pm_coupon_price] => 0
+    [ad_pc_id] => 
+    [pm_advance_price] => 0
+    [pm_card_price] => 0
+    [pm_cash_price] => 0
+    [rs_id] => 557
+    [pk] => rs_id
+)
+

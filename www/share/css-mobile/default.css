@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* KSP */
+html{ font-size:1em;}
+body{ font-size:14px; font-family:'돋움',dotum,Helvetica,sans-serif; color:#555; line-height:1.5; -webkit-text-size-adjust:none;}
+label{ cursor:pointer;}
+code{ display:block;}
+
+a:link, a:visited{ color:#555; text-decoration:none;}
+a:hover, a:focus, a:active{ text-decoration:none;}
+
+a, abbr, acronym, address, applet, article, aside, audio,
+b, blockquote, big, body,
+center, canvas, caption, cite, code, command,
+datalist, dd, del, details, dfn, dl, div, dt, 
+em, embed,
+fieldset, figcaption, figure, font,#footer, form, 
+h1, h2, h3, h4, h5, h6,#header, hgroup, html,
+i, iframe, img, ins,
+kbd, 
+keygen,
+label, legend, li, 
+meter,
+nav, menu,
+object, ol, output,
+p, pre, progress,
+q, 
+s, samp, section, small, span, source, strike, strong, sub, sup,
+table, tbody, tfoot, thead, th, tr, tdvideo, tt,
+u, ul, 
+var{ margin:0; padding:0; background:transparent;}
+
+h1, h2, h3, h4, h5, h6, th, td, table, input, button, select, textarea{ font-size:14px;}
+input, button, select, textarea{ margin:0; padding:0; font-family:'돋움',dotum,Helvetica,sans-serif; color:#555; line-height:1.5;}
+em, cite, address, optgroup{ font-style:normal;}
+kbd, samp, code{ font-family:monospace;}
+
+i{font-style:normal}
+
+input, button, select, textarea{ vertical-align:middle; border-radius:0;-webkit-appearance:none;}
+img{ vertical-align:top}
+ul, ol{ list-style:none;}
+img, fieldset{ border:0;}
+abbr, acronym{ border-bottom:1px dotted black; cursor:help;}
+table{ width:100%; border-collapse:collapse; border-spacing:0;}
+
+ins{ text-decoration:none; }
+del{ text-decoration:line-through; }
+
+legend, hr{ overflow:hidden; position:absolute; left:0; top:0;}
+legend, hr, caption{ visibility:hidden; width:0; height:0; font-size:0; line-height:0;}
+
+.group:after{ content:"."; display:block; visibility:hidden; height:0; clear:both;}
+.group{ display:inline-block;}
+.group{ display:block;}
+
+.clear{ clear:both; height:0; width:0; line-height:0; font-size:0;}
+
+.hidden{ display:none; visibility:hidden; margin:0; padding:0; width:0; height:0; background:none; font-size:0; line-height:0;}
+.hide{ display:block; position:absolute; top:-9999px; left:-9999px; overflow:hidden; width:1px; height:1px; font-size:0; line-height:0; text-indent:-9999px;}
+.show{ visibility:visible;}
+
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure,#footer,#header, hgroup, keygen, meter, nav, output, progress, section, source, video{ display: block;}
+mark, rp, rt, ruby, summary, time{ display:inline;}
+body { }
+
+select{height:40px; line-height:40px; font-size:14px;padding:0 28px 0 3px;font-family:tahoma;background:#fff url('/img/mobile/ico/bullet.png') no-repeat 100% 0;border:0;-webkit-appearance:none; background-size:29px 40px; border:1px solid #ccc; border-radius:2px}
+
+input[type="radio"],input[type="checkbox"] {opacity:0}
+input[type="text"],input[type="password"]{ border:1px solid #c8c8c8; -webkit-appearance:none;}
+input[type="file"]{ vertical-align:top}
+.input {position:relative}
+.input * {vertical-align:middle}
+.input input {position:absolute;left:0}
+.input label {display:inline-block;height:19px;padding-left:23px;line-height:19px;background:url('/img/mobile/bg/input_bg.png') no-repeat;background-size:19px 280px}
+
+.input input[type="radio"] + label {background-position:0 -111px}
+.input input:checked[type="radio"] + label {background-position:0 -74px}
+.input input:focus[type="radio"] + label {background-position:0 -259px}
+.input input:focus:checked[type="radio"] + label {background-position:0 -222px}
+
+.input input[type="checkbox"] + label {background-position:0 -37px}
+.input input:checked[type="checkbox"] + label {background-position:0 0}
+.input input:focus[type="checkbox"] + label {background-position:0 -185px}
+.input input:focus:checked[type="checkbox"] + label {background-position:0 -148px}
+
+/*skip*/
+#skip{margin:0}
+#skip dt {position: absolute;visibility: hidden;width: 0;height: 0;margin: 0;padding: 0;font-size: 0;line-height: 0;background: none repeat scroll 0 0 transparent;}
+#skip dd a {position:absolute;display:block;overflow:hidden;top:-5000px;left:0;width:200px;padding:12px 0;background-color:#eee;text-align:center;z-index:5000;}
+#skip dd a:focus,#skip dd a:active {top:0;left:0;font-weight:bold;font-size:13px;color:#000;}
+

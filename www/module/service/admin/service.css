@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+#service {}
+
+/* preview */
+#service ul.preview > li > div.content p.price {}
+#service ul.preview > li > div.content p.price > span { text-decoration:line-through; }
+#service ul.preview > li > div.content p.price > strong { font-weight:bold; }
+#service ul.preview > li > div.content p.content { margin:5px 0; }
+
+

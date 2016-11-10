@@ -1,0 +1,72 @@
+@charset "utf-8";
+/**
+* import 
+*/
+@import url("../../share/css/reset.css");
+@import url("../../share/css/common.css");
+@import url("../../share/css/ui.css");
+@import url("/share/css/sButton.css");
+@import url("../../share/font-awesome-4.3.0/font-awesome.min.css");
+
+
+
+button { border:0; padding:0; background:transparent; cursor:pointer; *overflow:visible; *zoom:1; }
+button::-moz-focus-inner { padding:0; border:0; }
+
+.skip { height: 0; left: -500px; line-height: 0; overflow: hidden; position: absolute; text-indent: -2000px; width: 0; font-weight:bold; }
+ul#skipToContent li { ; position:absolute; left:0; top:0; width:100%; z-index:10000; }
+ul#skipToContent li a { width:100%; display:block; position:absolute; left:0; top:-10000px; text-align:center; font-size:0; z-index:10000; }
+ul#skipToContent li a:focus,
+ul#skipToContent li a:active { width:100%; background-color:#fff; font-size:1.3em; top:0; }
+
+/* layout */
+body, input, button, select, textarea, sub{font-family:"Malgun Gothic",dotum,Helvetica,sans-serif;}
+
+/* wrap */
+#wrap{ position:relative; overflow-x:hidden; min-height:100%; min-width:1000px; }
+
+/* header */
+#header { position:absolute; top:30px; left:50%; margin-left:-500px; width:1000px; height:70px; z-index:500; background-color:#ffd80c; border-radius: 5px;  box-shadow: 3px 4px 0 rgba(0, 0, 0, 0.3);}
+
+div.headerWrap { z-index:20; width:100%; height:100px; }
+div.headerWrap > h1 { position:absolute; left:40px; top:18px;}
+div.headerWrap > ul.top_util { position: absolute; right: 40px; top: 24px;}
+div.headerWrap > ul.top_util:after { content:""; display:block; clear:both; }
+div.headerWrap > ul.top_util > li { float:left; margin-left:10px; padding-left:10px;}
+
+div.headerWrap > p {position: absolute; right: 100px; top:25px; width:280px;  color:#3c3c3c; }
+div.headerWrap > p > strong {padding-right:16px; color:#3c3c3c; font-weight:900;}
+div.headerWrap > p > a > em {display:inline-block; line-height:1.5em;  width:150px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden}
+div.headerWrap > p > a > span {display:inline; padding-left:10px; color:#505050;}
+
+
+/* container */
+#container{ width:100%; min-width:1000px; *zoom:1 }
+#container div.containerWrap { width:1000px; min-height:700px; margin:50px auto 0; background:url("/img/layout/sub_bg.gif") 0 0 repeat-y; }
+#container div.containerWrap:after { display:block; content:'';clear:both; }
+
+
+/* footer */
+#footer { position:relative; width:100%; height:230px; background-color:#282828; }
+#footer div.footerWrap { position:relative; left:50%; width:1000px;  margin-left:-500px;  }
+#footer div.footerWrap > div.f_util { width:100%;}
+#footer div.footerWrap > div.f_util:after { content:""; display:block; clear:both; }
+#footer div.footerWrap > div.f_util > p.logo { padding-top:50px;}
+#footer div.footerWrap > div.f_util > p.btn_top { position:absolute; right:0; top:30px; }
+
+#footer div.footerWrap > div.add { padding:20px 0; color:#6f6f6f; }
+#footer div.footerWrap > div.add > ul > li { line-height:16px; color:#6e6e6e; }
+#footer div.footerWrap > div.add > ul > li > span { padding-left:20px;}
+#footer div.footerWrap > div.add > p {padding-top:18px; }
+#footer div.footerWrap > div.add > p > span {color:#fff;}
+#footer div.footerWrap > div.add > p.f_info {position:absolute; right:0; top:120px;  }
+
+
+
+/* layer popup */
+#layer_back { display:none; position:fixed; top:0; left:0; z-index:990; width:100%; height:100%; background-color:#000; filter:alpha(opacity=50); -khtml-opacity:0.5; -moz-opacity:0.5; opacity:0.5; }
+#layer_popup { display:none; position:fixed; top:50%; left:50%; z-index:995; width:800px; height:700px; background-color:#fff; margin:-350px 0 0 -400px; border:1px solid #000; }
+#layer_header { position:relative; width:100%; height:80px; background-color:#fedc19; }
+#layer_header > h1 { width:80%; margin-left:30px; line-height:80px; color:#3c3c3c; font-size:20px}
+#layer_header > button { position:absolute; top:28px; right:30px; z-index:996; width:27px; height:27px; margin:0; padding:0; border:0; cursor:pointer; }
+#layer_content { height:550px; padding:50px 20px 20px 20px; margin-bottom:0; overflow-y:auto; *zoom:1; }

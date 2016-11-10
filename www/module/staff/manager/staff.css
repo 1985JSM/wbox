@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+#staff {}
+
+#state_mb_email { font-weight:bold; color:red; }
+#state_mb_nick { font-weight:bold; color:red; }
+
+/* preview */
+#staff ul.preview > li > div.content { margin-left:210px; line-height:22px; color:#303030; }
+
+#staff div.write table.list_table {}
+#staff div.write table.list_table tr td.subject {}
+#staff div.write table.list_table tr td.subject input.checkbox { margin-left:10px; }
+
+#staff ul.preview > li > div.order {display:block; float:left; padding:35px 20px 0 20px;}
+#staff ul.preview > li > div.order button.up {display:inline-block; min-width:26px; height:26px; line-height:18px; padding:0; border:1px solid #d2d2d2; vertical-align:baseline; text-align:center; font-size:11px;  background:url("/img/common/ico_up.gif") 0 0 no-repeat #fff; cursor:pointer;}
+#staff ul.preview > li > div.order button.down {display:inline-block; min-width:26px; height:26px; line-height:18px; padding:0; border:1px solid #d2d2d2; vertical-align:baseline; text-align:center; font-size:11px;  background:url("/img/common/ico_down.gif") 0 0 no-repeat #fff; cursor:pointer;}
+#staff ul.preview > li > div.order button.up:focus, table.list_table tr td button.up:hover, 
+#staff ul.preview > li > div.order button.down:focus, table.list_table tr td button.down:hover { background-color:#eee; text-decoration:none; font-weight:bold; }

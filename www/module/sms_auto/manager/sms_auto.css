@@ -1,0 +1,24 @@
+div.sub_auto {position:relative;}
+div.sub_auto ul.guide_list {margin-top:10px;}
+div.sub_auto ul.guide_list > li {font-size:11px;}
+
+div.sub_auto table.list_table tr td.left {padding-left:2em;text-align:left;}
+
+div.sub_auto table tr td div.write_area {position:relative;left:50%;width:220px;height:180px;margin-left:-110px;border:1px solid #ddd;}
+div.sub_auto table tr td div.write_area > textarea.smsbox {overflow:auto;width:190px;height:110px;margin:15px 10px;padding:5px;border:none;line-height:20px;background:transparent;color:#666;resize:none;}
+div.sub_auto table tr td div.write_area p.byte {position:absolute;top:150px;left:10px;}
+div.sub_auto table tr td div.write_area p.byte > span.length {font-weight:600;color:#2460ce;}
+div.sub_auto table tr td div.write_area p.byte > span.limit {color:#3c3c3c;}
+div.sub_auto table tr td div.write_area p.byte > span.type {margin-left:5px;padding-left:10px;background:url("/img/manager/bg_line.gif") 0 50% no-repeat;color:#3c3c3c;}
+div.sub_auto table tr td div.write_area div.btn_delete {position:absolute;top:145px;right:10px;}
+div.sub_auto table tr td div.write_area div.btn_delete > button.trash {display:inline-block;overflow:visible;position:relative;width:25px;height:25px;margin:0;padding:0;border:1px solid #1d4da5;font-size:12px;line-height:21px;background:#2460ce;color:#fff;text-align:center;text-decoration:none !important;vertical-align:middle;white-space:nowrap;cursor:pointer;box-sizing:border-box;}
+
+div.sub_auto table tr td > span.title {display:block;margin-bottom:10px;font-weight:600;font-size:14px;}
+div.sub_auto table tr td > span.help {display:block;margin-top:10px;font-size:11px;}
+div.sub_auto table tr td ul.set {padding-bottom:20px;border-bottom:1px dashed #ddd;}
+div.sub_auto table tr td ul.set > li:first-child {margin:0;}
+div.sub_auto table tr td ul.set > li {margin-top:6px;}
+div.sub_auto table tr td ul.set > li > input.text {text-align:center;}
+div.sub_auto table tr td ul.set.last {border:none;}
+
+div.sub_auto table tr td p.guide {margin:20px 0 0 0;}

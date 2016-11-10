@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* ㄴfor styles  */
+@import url("../../share/css-mobile/default.css");
+@import url("../../share/css-mobile/slick.css"); /*swipe플러그인*/
+@import url("../../share/css-mobile/layout.css");
+@import url("../../share/css-mobile/common.css");
+@import url("../../share/css-mobile/skin.css");
+@import url("../../share/css-mobile/main.css");
+@import url("../../share/css-mobile/sub.css");
+@import url("../../share/font-awesome-4.3.0/font-awesome.min.css");

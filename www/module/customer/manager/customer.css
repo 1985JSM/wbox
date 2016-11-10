@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+#layer_content table tbody.ad_type_M tr.ad_type_Q { display:none; }
+#layer_content table tbody.ad_type_M tr.ad_type_P { display:none; }
+
+#layer_content table tbody.ad_type_Q tr.ad_type_M { display:none; }
+#layer_content table tbody.ad_type_Q tr.ad_type_P { display:none; }
+
+#layer_content table tbody.ad_type_P tr.ad_type_M { display:none; }
+#layer_content table tbody.ad_type_P tr.ad_type_Q { display:none; }
+
+input.member_search {background:url("./img/bg_member_serch.gif") 0 0 no-repeat #fff}

@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/**
+* import 
+*/
+@import url("../../share/css/reset.css");
+@import url("../../share/css/common.css");
+@import url("../../share/css/ui.css");
+@import url("../../share/css/sButton.css");
+
+/**
+* layout
+*/
+body { font-family:"돋움"; font-size:75%; color:#303030; }
+#wrap { position:relative; z-index:0; min-width:1200px; background:url("./img/bg_wrap.gif") 0 0 repeat-y #fff; }
+#header { position:relative; z-index:30; height:60px; background-color:#bcb6b5; }
+#container { position:relative; z-index:0; }
+#container:after { clear:both; display:block; content:""; }
+#footer { position:relative; z-index:20; height:60px; background:#3e3e3e; }
+
+/**
+* header
+*/
+#header:after { clear:both; display:block; content:""; }
+#header > h1 { float:left; width:232px; }
+#header > h1 > a { display:block; padding:9px 26px 10px; background-color:#3e3e3e; }
+#header > #global { margin-left:232px; padding:17px 0; }
+
+#global > div.account, #global > div.ip, #global div.logout { display:inline-block; height:26px; line-height:26px; margin-left:45px; }
+#global > div.account p {}
+
+#global span.icon { display:inline-block; padding:4px 6px; border:1px solid #ababab; background-color:#efefef; }
+#global strong { font-weight:bold; }
+
+#global div.logout { }
+#global div.logout a { display:inline-block; padding:1px 13px; background-color:#6f6363; border:1px solid #5c5151; color:#fff; border-radius:2px; }
+#global div.logout a:focus, #global div.logout a:hover { text-decoration:none; background-color:#666; border-color:#303030; }
+
+/**
+* aside
+*/
+#aside { float:left; width:232px; }
+#aside div.date_info { height:50px; background-color:#bcb6b5; }
+#aside div.date_info dl { padding:15px 20px; }
+#aside div.date_info dl dt, #aside div.date_info dl dd { display:inline-block; }
+#aside div.date_info dl dt { padding-right:10px; border-right:1px solid #444548; font-weight:bold; font-size:1.25em; }
+#aside div.date_info dl dd { padding-left:10px; }
+
+#gnb { margin:30px; }
+#gnb > ul {}
+#gnb > ul > li { padding:10px 5px; border-bottom:1px solid #cecece; }
+#gnb > ul > li > a { display:block; color:#000; font-size:1.1em; font-weight:bold; }
+#gnb > ul > li > ul { margin:10px 0 0 10px; }
+#gnb > ul > li > ul > li { margin-bottom:8px; }
+#gnb > ul > li > ul > li > a { display:block; font-size:1.1em; }
+
+/**
+* content
+*/
+#content { position:relative; z-index:0; margin-left:232px; }
+#content div.doc_title { height:50px; background:url("./img/bg_title_path.jpg") 0 0 no-repeat; }
+#content div.doc_title h3 { height:50px; padding-left:35px;  line-height:49px; font-size:1.15em; font-weight:bold; color:#fff; }
+
+#article { position:relative; z-index:0; width:900px; padding:35px; }
+#article h4 { height:16px; margin-bottom:10px; padding-left:20px; line-height:16px; background:url("./img/ico_arrow.jpg") 0 0 no-repeat; 
+	font-size:1.15em; font-weight:bold; color:#303030;}
+
+
+/**
+* footer
+*/
+#footer div.copyright { height:60px; }
+#footer div.copyright p { height:60px; line-height:60px; padding-left:50px; color:#acacac; }
+
+/**
+* layer popup
+*/
+#layer_back { display:none; position:fixed; top:0; left:0; z-index:990; width:100%; height:100%; background-color:#000; filter:alpha(opacity=50); -khtml-opacity:0.5; -moz-opacity:0.5; opacity:0.5; }
+#layer_popup { display:none; position:fixed; top:50%; left:50%; z-index:995; width:600px; height:600px; background-color:#fff; margin:-300px 0 0 -300px; border:1px solid #000; }
+#layer_header { position:relative; width:100%; height:50px; background-color:#3c3c3c; }
+#layer_header > h1 { width:80%; margin-left:15px; line-height:50px; color:#fff; font-size:1.25em; font-weight:bold; }
+#layer_header > button { position:absolute; top:10px; right:15px; z-index:996; width:30px; height:28px; margin:0; padding:0; border:0; cursor:pointer; }
+#layer_content { height:500px; padding:20px; padding-bottom:30px; margin-bottom:0; overflow-y:auto; *zoom:1; }
+/*
+#layer_content > h4 { height:21px; line-height:21px; padding-left:40px; margin:0 0 30px; font-size:14px; font-weight:bold; color:#3c3c3c; background:url("/img/ico/bl_3.gif") 0 0 no-repeat; }
+#layer_content > h4 span { color:#505050; font-size:12px; font-weight:normal; }
+*/
+/**
+* content size
+*/
+#content.full #article { width:auto; }
+
+/**
+* wide layout
+body.wide #wrap { }
+body.wide #article { width:auto; }
+
+normal layout
+body.normal #wrap {}
+body.normal #article {}
+
+
+tablet layout
+body.tablet #wrap { min-width:300px; background:none; }
+body.tablet #wrap #header { height:auto; }
+body.tablet #wrap #header h1 { float:none; width:auto; text-align:center; }
+body.tablet #wrap #header #global { margin:0; }
+body.tablet #wrap #header #global div.account, body.tablet #wrap #header #global div.ip { display:block; margin-bottom:10px; }
+body.tablet #wrap #header #global div.logout { display:block; margin:0 0 10px 0; }
+body.tablet #wrap #header #global div.account p, #wrap.small #header #global div.ip p {}
+body.tablet #wrap #header #global div.logout p { text-align:center; }
+
+body.tablet #container #aside { float:none; width:auto; }
+body.tablet #container #aside div.date_info { background-color:#ccc; border-top:1px solid #606060; }
+body.tablet #container #aside #gnb { margin:10px; }
+
+body.tablet #container #content { margin:0; padding-bottom:10px; background-color:#aaa; }
+body.tablet #container #content #article { width:92%; margin:2%; padding:30px 2%; overflow:auto; border:1px solid #303030; background-color:#fff; }
+
+
+mobile layout
+body.mobile #wrap { min-width:300px; background:none; }
+body.mobile #wrap #header { height:auto; }
+body.mobile #wrap #header h1 { float:none; width:auto; text-align:center; }
+body.mobile #wrap #header #global { margin:0; }
+body.mobile #wrap #header #global div.account, body.mobile #wrap #header #global div.ip { display:block; margin-bottom:10px; }
+body.mobile #wrap #header #global div.logout { display:block; margin:0 0 10px 0; }
+body.mobile #wrap #header #global div.account p, #wrap.small #header #global div.ip p {}
+body.mobile #wrap #header #global div.logout p { text-align:center; }
+
+body.mobile #container #aside { float:none; width:auto; }
+body.mobile #container #aside div.date_info { background-color:#ccc; border-top:1px solid #606060; }
+body.mobile #container #aside #gnb { margin:10px; }
+
+body.mobile #container #content { margin:0; padding-bottom:10px; background-color:#aaa; }
+body.mobile #container #content #article { width:92%; margin:2%; padding:30px 2%; overflow:auto; border:1px solid #303030; background-color:#fff; }
+*/

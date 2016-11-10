@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+#container.main{ background:#f8f8f8}
+.main_qm{position:absolute;top:5%;left:0; width:100%}
+.main_qm li{float:left; margin-right:4%;width:20%;}
+.main_qm li:first-child{margin-left:4%}
+.main_qm li a{display:block;width:70px; height:23px; margin:0 auto; border-radius:70px;color:#fff; background:#f06e58;font-size:12px; line-height:13px; text-align:center; padding-top:47px; position:relative;font-weight:bold}
+.main_qm li a span{display:block;width:30px;height:30px;background:url(/img/mobile/main/main_qm.png) no-repeat 0 0; background-size:30px 120px;-webkit-background-size:30px 120px; position:absolute;top:13px;left:50%;margin-left:-15px}
+.main_qm li.qm01 a{background:#f06e58}
+.main_qm li.qm01 a span{ background-position:0 0}
+.main_qm li.qm02 a{background:#6fcdd3}
+.main_qm li.qm02 a span{ background-position:0 -30px}
+.main_qm li.qm03 a{background:#9e6eaf}
+.main_qm li.qm03 a span{ background-position:0 -60px}
+.main_qm li.qm04 a{background:#ffb400}
+.main_qm li.qm04 a span{ background-position:0 -90px}
+
+.main_sur{width:231px;height:231px; position:absolute;top:33%;left:50%;margin-left:-115px; overflow:hidden}
+.main_info{ position: relative; z-index:2;width:231px;}
+.main_info p.info01{text-align:center; padding-top:80px;font-size:15px; line-height:18px;color:#333; background:url(/img/mobile/main/main_logo.png) no-repeat 50% 25px; background-size:43px 43px;}
+.main_info p.info01 i{font-weight:bold;color:#11b8be}
+.main_info p.info01 em{font-size:30px; line-height:32px;color:#f06e58;display:block;}
+.main_info .btn_3d_orange{ margin:12px auto 0;}
+
+.main_round_bg{width:231px;height:231px; position:absolute;top:0;left:0; z-index:1; background:url(/img/mobile/main/main_round_bg.png) no-repeat 0 0; background-size:231px 231px;-webkit-background-size:231px 231px;-webkit-animation:mra 6s ease-out 0s infinite normal;animation:mra 6s ease-out 0s infinite normal}
+@-webkit-keyframes mra{
+    4%{-webkit-transform:rotate(60deg);transform:rotate(60deg);}
+	16%{-webkit-transform:rotate(60deg);transform:rotate(60deg)}
+	20%{-webkit-transform:rotate(120deg);transform:rotate(120deg)}
+	33%{-webkit-transform:rotate(120deg);transform:rotate(120deg)}
+	37%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+	50%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+	54%{-webkit-transform:rotate(240deg);transform:rotate(240deg)}
+	66%{-webkit-transform:rotate(240deg);transform:rotate(240deg)}
+	70%{-webkit-transform:rotate(300deg);transform:rotate(300deg)}
+	83%{-webkit-transform:rotate(300deg);transform:rotate(300deg)}
+	87%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+	100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+}
+@keyframes mra{
+    4%{-webkit-transform:rotate(60deg);transform:rotate(60deg);}
+	16%{-webkit-transform:rotate(60deg);transform:rotate(60deg)}
+	20%{-webkit-transform:rotate(120deg);transform:rotate(120deg)}
+	33%{-webkit-transform:rotate(120deg);transform:rotate(120deg)}
+	37%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+	50%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+	54%{-webkit-transform:rotate(240deg);transform:rotate(240deg)}
+	66%{-webkit-transform:rotate(240deg);transform:rotate(240deg)}
+	70%{-webkit-transform:rotate(300deg);transform:rotate(300deg)}
+	83%{-webkit-transform:rotate(300deg);transform:rotate(300deg)}
+	87%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+	100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+}
+
+
+.main_bg_ani{height:135px; background:url(/img/mobile/main/main_build.png) no-repeat 50% 0; background-size:360px 135px;-webkit-background-size:360px 135px; position:absolute;bottom:0;left:0;width:100%; overflow:hidden}
+.main_cloud_ani{width:1060px;height:40px;background:url(/img/mobile/main/main_cloud.png) no-repeat 0 0; background-size:1060px 40px;-webkit-transform:translate(0,10px,0);transform:translate3d(0,10px,0);-webkit-animation:mca 20s linear 0s infinite normal;animation:mca 20s linear 0s infinite normal}
+@-webkit-keyframes mca{
+    0%{-webkit-transform:translate3d(0,10px,0);transform:translate3d(0,10px,0)}
+	100%{-webkit-transform:translate3d(-600px,10px,0);transform:translate3d(-600px,10px,0)}
+}
+@keyframes mca{
+    0%{-webkit-transform:translate3d(0,10px,0);transform:translate3d(0,10px,0)}
+	100%{-webkit-transform:translate3d(-600px,10px,0);transform:translate3d(-600px,10px,0)}
+}
+
+
+/*아이폰 4일경우*/
+@media screen and (device-aspect-ratio: 2/3) {
+	.main_sur{width:180px;height:180px;margin-left:-90px;}
+	.main_info{width:180px;}
+	.main_info p.info01{padding-top:60px;font-size:13px; line-height:14px; background-position:50% 15px}
+	.main_info p.info01 em{font-size:24px; line-height:25px}
+	.main_round_bg{width:180px;height:180px;background-size:180px 180px;-webkit-background-size:180px 180px}
+}
+
+
+/*담당자 메인*/
+.main_list01{ background:#fff;border-bottom:1px solid #c2c2c2; position:relative; margin-bottom:6px;}
+.main_list01:after{display:block;content:'';width:100%;height:1px; background:#cecece; position:absolute;bottom:-2px;left:0}
+.main_list01 h4{height:50px; line-height:50px; padding-left:10px; border-bottom:0px solid #c2c2c2;font-size:14px;color:#000}
+.main_list01 h4 .txt{color:#888;font-weight:normal}
+.main_list01 .view_more{font-size:12px; position:absolute;top:17px;right:10px;color:#888}
+.main_list01 .list li{border-top:1px solid #ececec; position:relative}
+.main_list01 .list li>a{display:block;padding:15px 50px 15px 10px;color:#333}
+.main_list01 .list li>a .tit{display:block;text-overflow:ellipsis; white-space:nowrap; overflow:hidden}
+.main_list01 .list li>a .tit .ico_reservation{display:inline-block;padding:0 5px;height:20px;line-height:20px; background:#ccc;color:#fff; border-radius:3px;font-size:11px;border:1px solid #ccc; position:relative;top:0px; margin-right:5px}
+.main_list01 .list li>a .txt{display:block;font-size:12px; color:#888;text-overflow:ellipsis; white-space:nowrap; overflow:hidden; margin-right:50px}
+.main_list01 .list li>a .txt>.col_blue{}
+
+.main_list01 .list li>a .txt> .state_W{color:#12aec3;}
+.main_list01 .list li>a .txt> .state_P{color:#f06e58;}
+.main_list01 .list li>a .txt> .state_E{color:#12aec3;}
+.main_list01 .list li>a .txt> .state_C{color:#888;}
+.main_list01 .list li>a .txt> .state_B{color:#f06e58;}
+
+
+.main_list01 .list li>a .icon{display:block;font-size:12px;width:34px;height:34px; color:#fff; background:#ff3f1e; border-radius:34px; line-height:34px; text-align:center;font-weight:bold; position:absolute;top:17px;right:10px}
+.main_list01 .list li.no_data p{ padding:15px 10px; text-align:center;color:#888}
+
+.main_list02{ background:#fff;border-bottom:1px solid #c2c2c2; position:relative; margin-bottom:6px;}
+.main_list02:after{display:block;content:'';width:100%;height:1px; background:#cecece; position:absolute;bottom:-2px;left:0}
+.main_list02 h4{height:50px; line-height:50px; padding-left:10px; border-bottom:0px solid #c2c2c2;font-size:14px;color:#000}
+.main_list02 h4 .txt{color:#888;font-weight:normal}
+.main_list02 .view_more{font-size:12px; position:absolute;top:17px;right:10px;color:#888}
+.main_list02 .list li{border-top:1px solid #ececec; position:relative}
+.main_list02 .list li>a{display:block;padding:0 10px 0 100px;color:#333; height:50px; line-height:50px}
+.main_list02 .list li>a .tit{display:block;text-overflow:ellipsis; white-space:nowrap; overflow:hidden; position:absolute;top:0;left:10px;width:80px}
+.main_list02 .list li>a .txt{display:block;font-size:12px; color:#555;text-overflow:ellipsis; white-space:nowrap; overflow:hidden}
+.main_list02 .list li.no_data p{ padding:15px 10px; text-align:center;color:#888}
+
+.main_list03{ background:#fff; position:relative}
+.main_list03 h4{height:50px; line-height:50px; padding-left:10px; border-bottom:1px solid #ececec;font-size:14px;color:#000}
+.main_list03 h4 .txt{color:#888;font-weight:normal}
+.main_list03 .view_more{font-size:12px; position:absolute;top:17px;right:10px;color:#888}
+.main_list03 .board_list li a{border-bottom:1px solid #ececec;font-weight:normal}
+.main_list03 .board_list li div.cont{border-bottom:1px solid #ececec}
+.main_list03 .board_list li.no_data p{border-bottom:1px solid #ececec}

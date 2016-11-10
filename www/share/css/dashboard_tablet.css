@@ -1,0 +1,374 @@
+@charset "utf-8";
+
+/* layout */
+html,body {
+	-webkit-overflow-scrolling:touch;
+	-webkit-touch-callout:none;
+	-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+	-webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;
+	height:100%;
+	font-family:"Noto Sans KR", "돋움",dotum,Helvetica,sans-serif;
+	background:gray;
+}
+
+
+/* CSS Document */
+div {display:block;}
+
+/* default */
+button { cursor:pointer; }
+
+#dashboard_wrap { min-width:320px; }
+#dashboard_header { min-width:320px; height:50px; padding:0; line-height:50px; background-color:#fedc19; *zoom:1; }
+
+
+/* header */
+#dashboard_header > h1 > a { }
+
+/* content */
+#dashboard_content { right:0; top:50px;}
+#content_calender {min-width:320px;}
+
+/* 상단 영역 */
+#dashboard_content div.dashboard_content_top {padding:0 10px; height:auto; }
+#dashboard_content div.dashboard_content_top div.dashboard_date  {display:block; position:relative; float:none;}
+#dashboard_content div.dashboard_content_top div.dashboard_type {display:block;  position:relative; float:left; left:0; margin-left:0;}
+#dashboard_content div.dashboard_content_top div.dashboard_search {display:block;  position:relative; left:0; float:right;}
+
+#dashboard_content div.dashboard_content_top > div.dashboard_date strong {font-size:14px;}
+
+/* 달력 영역 */
+div.calendar_frame {top:100px;}
+div.calendar_frame div.schedule_table {top:28px; }
+
+/* 월간 달력 */
+div.calendar_frame div.monthly_calendar table.month_table {overflow:hidden; position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; background:#fff;}
+div.calendar_frame div.monthly_calendar table.month_table {width:100%; border-collapse:collapse; table-layout:fixed; border:0;  }
+div.calendar_frame div.monthly_calendar table.month_table tr th { height:28px; line-height:28px; }
+div.calendar_frame div.monthly_calendar table.month_table tr th:first-child { border-left:0; }
+div.calendar_frame div.monthly_calendar table.month_table tr td {padding:4px;}
+div.calendar_frame div.monthly_calendar table.month_table tr > td:first-child { border-left:0; }
+div.calendar_frame div.monthly_calendar table.month_table tr .sun { color:#f06e58 !important; }
+div.calendar_frame div.monthly_calendar table.month_table tr .sat { color:#0085ca !important; }
+div.calendar_frame div.monthly_calendar table.month_table tr td.today { background:#fffbe1; border:solid 1px #969696;}
+div.calendar_frame div.monthly_calendar table.month_table tr .sel { background:#e1f3ff; border:solid 1px #969696;}
+div.calendar_frame div.monthly_calendar table.month_table tbody tr.bg_col td { background:#fafafa!important;}
+div.calendar_frame div.monthly_calendar table.month_table tbody tr div { position: relative; top:5px; left:0px; width:100%;}
+div.calendar_frame div.monthly_calendar table.month_table tbody tr div ul li {overflow:hidden; z-index:40; display: block; border-radius: 5px; color:#fff; margin-bottom:5px; padding:3px 5px; font-weight:normal; white-space:nowrap; text-overflow:ellipsis;}
+div.calendar_frame div.monthly_calendar table.month_table tbody tr div ul li a {display:block; color:#fff;}
+
+div.calendar_frame div.monthly_calendar table.month_table tbody tr div ul li.stateW {background-color: #1a9ab1; border:solid 1px #128397;}
+div.calendar_frame div.monthly_calendar table.month_table tbody tr div ul li.stateP {background-color: #894c9e; border:solid 1px #6e3881;}
+/* div.calendar_frame div.monthly_calendar table.month_table tbody tr div ul li.stateE {background-color: #f68a1f; border:solid 1px #d6700b;} */
+div.calendar_frame div.monthly_calendar table.month_table tbody tr div ul li.stateE {background-color: #58585a; border:solid 1px #58585a;} 
+div.calendar_frame div.monthly_calendar table.month_table tbody tr div ul li.stateC {background-color: #6e6e6e; border:solid 1px #646464;}
+div.calendar_frame div.monthly_calendar table.month_table tbody tr div ul li.stateB {background-color: #538fd4; border:solid 1px #3770b1;}
+
+
+
+/* 주간 달력 */
+div.calendar_frame table.week_table { overflow:hidden; position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; background:#fff; }
+div.calendar_frame table.week_table tr th, div.calendar_frame table.week_table tr td { height:39px; line-height:39px; text-align:center; border:0; border-left:1px solid #dcdcdc; }
+div.calendar_frame table.week_table tr th { background:#fafafa; }
+div.calendar_frame table.week_table tr th strong {font-weight:bold;}
+div.calendar_frame table.week_table tr th:first-child { border-left:0; } 
+div.calendar_frame table.week_table tr td { position:relative; border-top:1px solid #dcdcdc; font-weight:bold;background:#fff;  }
+div.calendar_frame table.week_table tr > td:first-child { border-left:0; } 
+div.calendar_frame table.week_table tr td.title { color:black; }
+div.calendar_frame table.week_table tr .sun { color:#f06e58 !important; }
+div.calendar_frame table.week_table tr .sat { color:#0085ca !important; }
+
+/* time_cell */
+
+div.calendar_frame table.week_table tr td a, div.calendar_frame table.week_table tr td button {display:block; height:100%;}
+div.calendar_frame table.week_table tr td div.time_cell { position:absolute; z-index:100; width:100%;  }
+div.calendar_frame table.week_table tr td div.time_cell a, div.calendar_frame table.week_table tr td div.time_cell button { display:block; width:100%; height:100%; border:0; padding:0; color:#303030; }
+div.calendar_frame table.week_table tr td div.time_cell.stateW a, div.calendar_frame table.week_table tr td div.time_cell.stateW button {background:#e2f5f7;}
+div.calendar_frame table.week_table tr td div.time_cell.stateF a, div.calendar_frame table.week_table tr td div.time_cell.stateF button {background:#fbdbd5;} 
+/*div.calendar_frame table.week_table tr td div.time_cell.stateF a, div.calendar_frame table.week_table tr td div.time_cell.stateF button {background:#fbdbd5;} */
+div.calendar_frame table.week_table tr td div.time_cell.stateA a, div.calendar_frame table.week_table tr td div.time_cell.stateA button {background:#fbdbd5;} 
+div.calendar_frame table.week_table tr td div.time_cell.stateP a, div.calendar_frame table.week_table tr td div.time_cell.stateP button {background:#f9f0fc;} 
+div.calendar_frame table.week_table tr td div.time_cell.stateE a, div.calendar_frame table.week_table tr td div.time_cell.stateE button {background:#fbf3ea;} 
+div.calendar_frame table.week_table tr td div.time_cell.stateC a, div.calendar_frame table.week_table tr td div.time_cell.stateC button {background:#f0f0f0;} 
+div.calendar_frame table.week_table tr td div.time_cell.stateB a, div.calendar_frame table.week_table tr td div.time_cell.stateB button {background:#b2d3ff;}
+
+
+/* 일간 달력 */
+div.calendar_frame table.day_table { overflow:hidden; position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; background:#fff; }
+div.calendar_frame table.day_table tbody {width:100%; }
+div.calendar_frame table.day_table tr {width:100%;}
+div.calendar_frame table.day_table tr th, div.calendar_frame table.day_table tr td { height:39px; line-height:39px; text-align:center; border:0; border-left:1px solid #dcdcdc; }
+div.calendar_frame table.day_table tr th.disabled, div.calendar_frame table.day_table tr td.disabled {background:#eeeeee;}
+div.calendar_frame table.day_table tr th { background:#fafafa; }
+div.calendar_frame table.day_table tr th strong {font-weight:bold;}
+div.calendar_frame table.day_table tr th:first-child { border-left:0; }
+div.calendar_frame table.day_table tr td {position:relative; border-top:1px solid #dcdcdc; font-weight:bold;background:#fff;  }
+div.calendar_frame table.day_table tr > td:first-child { border-left:0;}
+div.calendar_frame table.day_table tr td.title { color:black; }
+
+
+div.calendar_frame table.day_table.staff4 tr th, div.calendar_frame table.day_table.staff4 tr td {width:20%; }
+div.calendar_frame table.day_table.staff5 tr th, div.calendar_frame table.day_table.staff5 tr td {width:16.6%;}
+div.calendar_frame table.day_table.staff6 tr th, div.calendar_frame table.day_table.staff6 tr td {width:14.2%;}
+div.calendar_frame table.day_table.staff7 tr th, div.calendar_frame table.day_table.staff7 tr td {width:12.5%;}
+div.calendar_frame table.day_table.staff8 tr th, div.calendar_frame table.day_table.staff8 tr td {width:11.1%;}
+div.calendar_frame table.day_table.staff9 tr th, div.calendar_frame table.day_table.staff9 tr td {width:10%;}
+div.calendar_frame table.day_table.staff10 tr th, div.calendar_frame table.day_table.staff10 tr td {width:9%;}
+
+
+/* time_cell */
+div.calendar_frame table.day_table tr td a, div.calendar_frame table.day_table tr td button {display:block; height:100%;}
+div.calendar_frame table.day_table tr td div.time_cell { position:absolute; z-index:100; width:100%;  }
+div.calendar_frame table.day_table tr td div.time_cell a, div.calendar_frame table.day_table tr td div.time_cell button { display:block; width:100%; height:100%; border:0; padding:0; color:#303030; }
+/*div.calendar_frame table.day_table tr td div.time_cell.stateW a, div.calendar_frame table.day_table tr td div.time_cell.stateW button,
+div.calendar_frame table.day_table tr td div.time_cell.stateF a, div.calendar_frame table.day_table tr td div.time_cell.stateF button,
+div.calendar_frame table.day_table tr td div.time_cell.stateA a, div.calendar_frame table.day_table tr td div.time_cell.stateA button,
+
+div.calendar_frame table.day_table tr td div.time_cell.stateP a, div.calendar_frame table.day_table tr td div.time_cell.stateP button,
+div.calendar_frame table.day_table tr td div.time_cell.stateE a, div.calendar_frame table.day_table tr td div.time_cell.stateE button,
+div.calendar_frame table.day_table tr td div.time_cell.stateC a, div.calendar_frame table.day_table tr td div.time_cell.stateC button,
+div.calendar_frame table.day_table tr td div.time_cell.stateB a, div.calendar_frame table.day_table tr td div.time_cell.stateB button {background:url("/img/manager/bg_time_sell.gif") 0 bottom repeat-x;}*/
+
+div.calendar_frame table.day_table tr td div.time_cell.stateW a, div.calendar_frame table.day_table tr td div.time_cell.stateW button {background-color:#e2f5f7; } 
+div.calendar_frame table.day_table tr td div.time_cell.stateF a, div.calendar_frame table.day_table tr td div.time_cell.stateF button {background-color:#fbdbd5; } 
+div.calendar_frame table.day_table tr td div.time_cell.stateA a, div.calendar_frame table.day_table tr td div.time_cell.stateA button {background-color:#fbdbd5; } 
+
+div.calendar_frame table.day_table tr td div.time_cell.stateP a, div.calendar_frame table.day_table tr td div.time_cell.stateP button {background-color:#f9f0fc; } 
+div.calendar_frame table.day_table tr td div.time_cell.stateE a, div.calendar_frame table.day_table tr td div.time_cell.stateE button {background-color:#fbf3ea;} 
+div.calendar_frame table.day_table tr td div.time_cell.stateC a, div.calendar_frame table.day_table tr td div.time_cell.stateC button {background-color:#f0f0f0; } 
+div.calendar_frame table.day_table tr td div.time_cell.stateB a, div.calendar_frame table.day_table tr td div.time_cell.stateB button {background-color:#b2d3ff;} 
+
+
+
+/* aside */
+#dashboard_aside { display:block; position:absolute;  width:280px; top:90px; right:0; bottom:10px;overflow:auto;}
+#dashboard_aside div.aside_container {position:absolute; top:0; right:0; left:0; bottom:0; width:260px; }
+#dashboard_aside div.aside_container > ul {}
+#dashboard_aside div.aside_container > ul > li { margin-bottom:10px; background:#fff; border:1px solid #969696; border-radius:5px; }
+#dashboard_aside div.dashboard_aside_top { height:40px; line-height:40px; padding:0 15px; background-color:#fcfcfc; border-bottom:1px solid #c8c8c8; *zoom:1; }
+#dashboard_aside div.dashboard_aside_top:after { clear:both; display:block; content:""; }
+#dashboard_aside div.dashboard_aside_top > h4 { float:left; padding-left:20px; background:url("/img/manager/ico_person.gif") 0 50% no-repeat; font-weight:bold; color:black; }
+#dashboard_aside div.dashboard_aside_top > span { display:block; float:right; padding-left:20px; background:url("/img/manager/ico_clock.gif") 0 14px no-repeat; text-align:right; font-weight:bold; }
+
+#dashboard_aside div.dashboard_aside_top > span.stateW { color:#1a9ab1; }
+#dashboard_aside div.dashboard_aside_top > span.stateP { color:#894c9e; }
+#dashboard_aside div.dashboard_aside_top > span.stateE { color:#f68a1f; }
+#dashboard_aside div.dashboard_aside_top > span.stateC { color:#6e6e6e; }
+#dashboard_aside div.dashboard_aside_top > span.stateB { color:#538fd4; }
+
+/* aside > 예약자정보 */
+#dashboard_aside ul > li > ul { padding:10px 20px; background-color:#red;}
+#dashboard_aside ul > li > ul > li { position:relative; padding:5px 0 5px 80px; color:black; background:url("/img/manager/bl_dot.gif") 0 13px no-repeat; }
+#dashboard_aside ul > li > ul > li > strong {display:block; overflow:hidden; position:absolute; top:5px; left:8px; width:70px; }
+#dashboard_aside ul > li > ul > li > span {position : relative; }
+#dashboard_aside ul > li > ul > li > span.name { font-weight:bold; }
+#dashboard_aside ul > li > ul > li > span.level {padding:3px; font-size:11px; border:1px solid #c8c8c8; border-radius:2px; color:#6e6e6e}
+#dashboard_aside ul > li > ul > li > span.time { font-weight:bold; }
+#dashboard_aside ul > li > ul > li > span.memo { line-height:1.5em; }
+#dashboard_aside ul > li > ul > li > span.service em {display:block;overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
+
+#dashboard_aside div.dashboard_aside_bottom { padding:5px 5px; line-height:27px; border-top:1px dashed #dcdcdc; text-align:center; }
+#dashboard_aside div.dashboard_aside_bottom div.btn_state ul:after { clear:both; display:block; content:""; }
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li {width:80px; height:27px; line-height:27px; margin-left:4px; float:left; }
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li:first-child { margin-left:0; }
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li a,
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li button {display:block; z-index:40; height:100%; border-radius:5px; background-color: #fcfcfc; border:solid 1px #c8c8c8; font-size:11px; cursor:pointer;}
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li button {width:100%; padding:1px 0}
+
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li a.approve,
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li button.approve {background-color: #1a9ab1; border:solid 1px #128397; color:#fff;}
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li a.approve.active,
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li button.approve.active {background-color:#6e6e6e; border:1px solid #505050; color:#fff;}
+
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li a:focus, #dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li button:focus,
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li a:active, #dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li button:active,
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li a:hover, #dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li button:hover {border:solid 1px #c8c8c8;background-color: #eeeeee; color:#303030}
+
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.state_area {position:relative; text-align:left; }
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.state_area span a, 
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.state_area span button {padding:0 0 0 6px; background:url("/img/manager/ico_arrow_dashboard.gif")  64px 12px no-repeat; text-align:left}
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.state_area span button {display:block; height:29px; }
+
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.state_area span a:hover, #dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.state_area span a:focus
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.state_area span button:hover, #dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.state_area span button:focus {color:#3c3c3c;background-color:#f5f5f5}
+
+
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.state_area > ul {display:none;}
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.state_area.open > ul {display:block; position:absolute; top:0; z-index:30}
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.state_area ul > li {width:78px; height:28px; border:1px solid #d2d2d2; border-bottom:1px solid #d2d2d2; border-top:0; line-height:28px; background:#fff}
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.state_area ul > li:first-child {border-top:1px solid #d2d2d2}
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.state_area ul > li > a {display:block; padding-left:4px; border-radius:0; border:0; text-align:left; color:#6e6e6e; }
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.state_area ul > li > button {display:block; padding-left:4px; border-radius:0; border:0; text-align:left; color:#6e6e6e; }
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.state_area ul > li > button {}
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.state_area ul > li > a:hover,
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.state_area ul > li > button:hover {color:#3c3c3c;background:#f5f5f5}
+
+
+#dashboard_aside div.dashboard_aside_bottom div.btn_state.state_after ul li {width:120px}
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.state_area span a, #dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.state_area span button {background-position:100px 12px;}
+
+/*
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.btn_area {text-align:left; }
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.btn_area span a {padding:0 0 0 4px; background:url("/img/manager/ico_arrow_dashboard.gif")  58px 12px no-repeat; text-align:left}
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.btn_area > ul {display:none;}
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.btn_area.on > ul {display:block;position:absolute;top:40px;z-index:30}
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.btn_area ul > li {height:28px; border:1px solid #d2d2d2; border-bottom:1px solid #d2d2d2; border-top:0; line-height:28px; background:#fff}
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.btn_area ul > li:first-child {border-top:1px solid #d2d2d2}
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.btn_area ul > li > a,
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.btn_area ul > li > button {display:block; color:#6e6e6e; border-radius:0; border:0; padding-left:4px;}
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.btn_area ul > li > a:hover,
+#dashboard_aside div.dashboard_aside_bottom div.btn_state > ul > li > div.btn_area ul > li > button:hover {color:#3c3c3c;background:#f5f5f5}
+*/
+
+#dashboard_aside ul > li > div.dashboard_aside_bottom div.btn_pay {margin-top:5px;}
+#dashboard_aside ul > li > div.dashboard_aside_bottom div.btn_pay a {display:block; z-index:40; border-radius:5px;background-color: #f68a1f; border:solid 1px #d6700b; font-size:11px; color:#fff; }
+
+/* popup */
+table.list_table tr td a.btn_choose_reserve { display:inline-block; height:25px; padding:0 5px; line-height:25px; color:#6e6e6e; }
+/*
+background-color: #fcfcfc; border: 1px solid #c8c8c8; border-radius: 5px; height: 25px; position: relative; z-index: 40; display:inline-block; padding:0 15px; }
+*/
+
+/* popup 결제정보 */
+#layer_popup table tr.payment_way input.text {margin-top:5px;}
+#layer_popup table tr.payment_way input.text:first-child {margin-top:0;}
+#layer_popup table tbody.service_list tr td select { width:100%}
+
+/* 관리자 메모 */
+#layer_popup textarea.manager_memo {background:url("/img/manager/bg_placeholder_memo.gif") 10px 10px no-repeat;}
+
+/* 예약하기 */
+div.user_list > p {margin-bottom:15px;padding-top:10px}
+div.user_list > ul {}
+div.user_list > ul > li {position:relative;line-height:16px;*zoom:1}
+div.user_list > ul > li input[type=checkbox]{position:absolute;top:17px;left:0;z-index:5}
+div.user_list > ul > li > div.user_info {display:block;position:relative;padding:16px 0 14px 0;border-bottom:1px solid #c8c8c8;background:url("/img/mobile/ico/ico_angle_down.png") 720px 50% no-repeat}
+div.user_list > ul > li.on > div.user_info {background:url("/img/mobile/ico/ico_angle_up.png") 720px 50% no-repeat}
+div.user_list > ul > li > div.user_info > span {display:inline-block; width:50px; text-align:center}
+div.user_list > ul > li > div.user_info button.user_name { display:inline-block; width:100px;font-weight:bold;color:#3c3c3c;text-align:center; background:none; border:0; margin:0; padding:0; cursor:pointer; }
+div.user_list > ul > li > div.user_info em {display:inline-block; width:170px; color:#3c3c3c;text-align:center}
+div.user_list > ul > li > div.user_info em.hp {width:150px;}
+
+div.user_list > ul > li > div.user_info a.user_info {position:absolute; top:10px; right:200px; z-index:999}
+div.user_list > ul > li > div.user_info button.user_reserve {position:absolute; top:10px; right:130px; z-index:999}
+div.user_list > ul > li > div.user_info a.user_choose {position:absolute; top:10px; right:60px; z-index:999}
+
+div.user_list > ul > li > div.user_res {display:none;position:relative;padding:20px 0;border-bottom:1px solid #c8c8c8}
+div.user_list > ul > li.open > div.user_res {display:block!important; }
+
+div.user_list p.no_data {padding:30px; border-bottom:1px solid #c8c8c8;text-align:center}
+
+table.list_table tr td.left {text-align:left; padding:0 10px;}
+
+
+/* 예약정보입력 */
+div.reserve_write { }
+div.reserve_write div.reserve_info_write:after {}
+div.reserve_write div.reserve_info_write { display:block; width:400px; height:540px; padding:20px 29px;float:left; overflow-y:auto; border:1px solid #d2d2d2; border-right:0;  }
+
+div.reserve_write div.reservation_title, div.reservation_userinfo, div.reserve_write div.reservation_staff, 
+div.reserve_write div.reservation_service, div.reserve_write div.reservation_time,
+div.reserve_write div.reservation_comment { display:block; position:relative; border-bottom:1px solid #d2d2d2;  background:#fff;}
+div.reserve_write div > span.tit {display:inline-block; width:80px; padding-left:20px; margin-right:10px; font-weight:bold; color:#333; line-height:50px; border-right:1px solid #d2d2d2; background:#f5f5f5;}
+
+div.reserve_write div.reservation_title {padding-bottom:0; }
+div.reservation_title span {height:50px; line-height:50px; font-size:14px; font-weight:bold; color:#333;}
+
+div.reserve_write div.reservation_userinfo {width:100%; border-top:2px solid #646464; background:#fff;}
+div.reserve_write div.reservation_staff select.select { }
+
+div.reservation_service select.select {}
+div.reservation_service div.service_select {}
+div.reservation_service div.service_select > ul > li {position:relative; padding:14px 10px; border-top:1px dotted #d2d2d2; }
+div.reservation_service div.service_select > ul > li:first-child {border-top:1px solid #d2d2d2; }
+div.reservation_service div.service_select ul li strong.service_name{ overflow:hidden; padding-bottom:0px; font-weight:bold; white-space:nowrap; text-overflow:ellipsis;}
+div.reservation_service div.service_select ul li span.service_time {color:#6e6e6e; font-size:11px;}
+div.reserve_info_write div.reservation_service div.service_select ul li span.service_time {display:block}
+div.reservation_service div.service_select ul li span.service_time strong{font-weight:bold;}
+div.reservation_service div.service_select ul li ul {position:absolute; right:10px; bottom:14px; }
+div.reservation_service div.service_select ul li ul:after { clear:both; display:block; content:""; }
+div.reservation_service div.service_select ul li ul li {float:left; padding:0 0 0 4px; margin-bottom:0;}
+div.reservation_service div.service_select ul li ul li:first-child {margin-top:0; }
+div.reservation_service div.service_select ul li ul li.price_sale {padding-top:2px; font-size:12px;  font-size:11px; text-decoration:line-through; color:#999999;}
+div.reservation_service div.service_select ul li ul li strong {color:#333;  font-weight:bold; }
+div.reservation_service div.service_select ul li ul li button, div.reservation div.reservation_service div.service_select ul li ul li a {display:block; width:16px; height:16px; padding:0; margin:0; border:0; font-size:16px; background:none;}
+
+div.reservation_service div.service_total {padding:10px;border-top:1px dotted #d2d2d2;}
+div.reservation_service div.service_total ul:after { clear:both; display:block; content:"";  }
+div.reservation_service div.service_total ul li {float:right; padding:0; margin:0; background:#fff;}
+div.reservation_service div.service_total ul li:first-child {float:left; padding-top:2px;font-size:12px; color:#999999; margin:0;}
+div.reservation_service div.service_total ul li strong {font-size:16px; font-weight:bold;}
+div.reservation_service div.service_total ul li:first-child strong {color:#555; font-size:12px;}
+
+div.reservation_time {padding:15px 10px;}
+div.reservation_time button {display:block; width:100%; font-size:14px; padding:10px 0; text-align:left; border:0; font-weight:bold; color:#000; background:url("/img/manager/btn_down_arrow.gif") right 0 no-repeat #fff; }
+div.reservation_time.open button {background:url("/img/manager/btn_up_arrow.gif") right 0 no-repeat #fff; }
+div.reservation_time button span {display:inline-block; width:100px;}
+
+div.reservation_time.on a {display:inline-block; color:#000; }
+div.reservation_time.on a strong {color:#333;}
+
+div.reservation_comment { padding:10px 0;}
+div.reservation_comment div.layer_textarea{padding:10px;border:1px solid #ccc; border-radius:2px; margin-bottom:5px}
+div.reservation_comment div.layer_textarea textarea{ border:0; width:100%; height:50px}
+
+div.reservation_time div.res_calendar {display:none; }
+div.reservation_time.open div.res_calendar {display:block;}
+
+/*달력*/
+/*
+div.res_calendar {display:none;}
+div.res_calendar.open {display:block;}
+*/
+div.res_calendar .date_area {padding:5px 0; margin-top:10px; text-align:center;font-size:15px; color:#fff;  background:#333; font-weight:bold;}
+div.res_calendar div.date_area a{display:inline-block; padding:0 10px; font-size:18px; text-decoration:none; color:#fff;}
+div.res_calendar table{ margin-bottom:15px;  border-bottom:1px solid #dcdcdc; }
+div.res_calendar table th{ line-height:26px; height:26px; color:#fff;font-size:12px; background:#333}
+div.res_calendar table th:first-child { border-left:0; }
+div.res_calendar table td{ line-height:30px; height:30px; text-align:center;  background:#fff; border:0; border-left:1px solid #dcdcdc; border-top:1px solid #dcdcdc; }
+div.res_calendar table td:first-child { border-left:0; }
+div.res_calendar table td a, div.res_calendar table td span{display:block; height:30px; line-height:30px; color:#555; text-align:center}
+div.res_calendar table td.none span{color:#bbb !important}
+div.res_calendar table td.sat a{color:#0085ca}
+div.res_calendar table td.sun a{color:#f06e58}
+div.res_calendar table td.today a, div.res_calendar table td.today span{ display:block; background:#f5f5f5; color:#555}
+div.res_calendar table td.on a{ background:#f06e58; color:#fff} 
+
+div.res_calendar .time_list{ margin-left:-4px}
+div.res_calendar .time_list:after{display:block;content:'';clear:both}
+div.res_calendar .time_list li{float:left; margin:0 0 4px 0;  padding:0 2px 0 2px;width:15.5%}
+div.res_calendar .time_list li span, div.res_calendar .time_list li button {display:block; border:1px solid #c2c2c2; border-radius:2px; font-size:12px;text-align:center;}
+div.res_calendar .time_list li span{height:28px; line-height:28px; background:#f5f5f5;  color:#bbb; }
+div.res_calendar .time_list li button{ padding:0; margin-left:0; height:30px; background:#fff; color:#555; }
+
+div.res_calendar .time_list2{ margin-left:-4px}
+div.res_calendar .time_list2:after{display:block;content:'';clear:both}
+div.res_calendar .time_list2 li{float:left; margin-bottom:4px;width:16.6666%}
+
+div.res_calendar .time_list2 span, div.res_calendar .time_list2 a { display:block; height:28px; line-height:28px; margin-left:4px; border-radius:2px; font-size:12px; text-align:center; }
+div.res_calendar .time_list2 span { background:#fff;  color:#555; border:1px solid #c2c2c2; }
+div.res_calendar .time_list2 a { background:#f5f5f5; border:1px solid #c2c2c2; color:#bbb; }
+div.res_calendar .time_list2 li.active a{ background:#fff; border:1px solid #f06e58; color:#f06e58; }
+
+
+div.reserve_write div.pay_info_write { display:block; height:540px; padding:20px 28px; overflow-y:auto; border:1px solid #d2d2d2}
+div.reserve_write div.pay_info_write div.selector {display:block; margin-bottom:5px;}
+div.reserve_write fieldset.etc { margin-top:20px; }
+
+div.res_btn {text-align:center; padding-top:40px;  clear:both; display:block; content:""; }
+div.res_btn button {background:none; padding:0; margin:0; border:0;}
+/*
+ul.res_btn:after { clear:both; display:block; content:""; }
+ul.res_btn {position:relative; left:50%; margin-left:-120px; text-align:center; padding-top:40px; clear:both; display:block; content:'';}
+ul.res_btn li {float:left; padding-left:5px;}
+ul.res_btn li:first-child {}
+ul.res_btn li button {background:#fff; padding:0; margin:0; border:0; }
+*/
+
+/* ajax loader */
+/*
+#ajax_loader {display: block;position:fixed;top:0;left:0;z-index:500;width:100%;height:100%;}
+#ajax_loader.open { display:block; }
+#ajax_loader > div.bg { position:absolute; top:0; left:0; z-index:500; width:100%; height:100%; background:#000; filter:alpha(opacity=50); -khtml-opacity:0.5; -moz-opacity:0.5; opacity:0.5; }
+#ajax_loader > div.loader { position:absolute; top:50%; left:50%; z-index:510; width:90px; height:90px; margin:-45px; 0 0 -45px; }
+*/

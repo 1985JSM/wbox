@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+#portfolio {}
+
+/* preview */
+#portfolio ul.preview > li > div.content p.content { margin:5px 0; }
+
+div.board_view > dl{ margin-bottom:20px;}
+div.board_view > dl:after{ display:block;content:'';clear:both}
+div.board_view > dl > dt{padding:12px 20px; border-top:2px solid #646464; border-bottom:1px solid #d2d2d2; background:#f6f6f6; font-size:14px; line-height:22px; font-weight:600;  color:#1d1d1d;}
+div.board_view > dl > dd{position:relative;padding:12px 20px;border-bottom:1px solid #d2d2d2;/* font-size:12px; *//* line-height:15px; *//* color:#646464; */}
+div.board_view > dl > dd span { display:inline-block; min-width:20%; margin-right:10px; }
+div.board_view > dl > dd span.success{ float:right; min-width:0; font-weight:bold;  }
+div.board_view > dl > dd span.point{ float:right; min-width:0; font-weight:bold;}
+div.board_view > dl > dd em { margin-right:10px; font-weight:bold;}
+div.board_view > dl > dd span.long { min-width:40%; margin-right:43px;} 
+div.board_view > dl > dd span.arrow{display:inline-block; min-width:0; margin-right:10px; color:#d4d4d4; }
+div.board_view > dl > dd .file_down{display:inline-block; padding-right:15px; margin-right:10px; background:url("/common/img/ico_download.gif") no-repeat 100% 3px;}
+div.board_view > dl > dd.cont{font-size:12px; line-height:1.6;color:#646464; padding:20px;}
+div.board_view > dl > dd.cont > div{overflow:hidden; min-height:200px; }
+div.board_view > dl > dd.cont > div > p {margin-bottom:10px; }
+div.board_view > div.button { margin-bottom:20px;}
+
+
+div.board_view div.reply {margin-top:20px;}
+div.board_view div.reply_top { height:30px; margin-bottom:5px; color:#3c3c3c; font-size:11px; }
+div.board_view div.reply_top:after { clear:both; display:block; content:""; }
+
+div.board_view div.reply_top > div.left { float:left; width:48%; height:30px; line-height:30px; text-align:left; }
+div.board_view div.reply_top > div.right { float:right; width:48%; height:30px; line-height:30px; text-align:right; }
+div.board_view div.reply > div.reply_list {border-top:2px solid #646464; margin-bottom:40px;}
+div.board_view div.reply ul li {position:relative; padding:12px 20px; border-bottom:1px solid #d2d2d2;}
+div.board_view div.reply ul li:after{ display:block;content:'';clear:both}
+div.board_view div.reply ul li em {display:block; margin-bottom:5px; clear:both; font-weight:bold;  }
+div.board_view div.reply ul li span.txt {float:left; display:block; width:85%; margin-bottom:15px;}
+div.board_view div.reply ul li > a, div.board_view div.reply ul li > button {float:right; margin-right:5px; }
+
+div.board_view div.reply div.rep_area {display:block; clear:both; background:#f6f6f6; padding:15px;}
+div.board_view div.reply div.rep_area:after{ display:block;content:'';clear:both}
+div.board_view div.reply div.rep_area strong {display:block; margin-bottom:5px; clear:both; font-weight:bold; }
+div.board_view div.reply div.rep_area a {float:right; margin-right:5px;}
+div.board_view div.reply div.rep_area span.rep_txt  {float:left; display:block; width:85%; margin-bottom:15px;}

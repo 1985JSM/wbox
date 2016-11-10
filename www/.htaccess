@@ -1,0 +1,43 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# css
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^web(admin|manager|staff|user)/(.*)/style.css$ /module/$2/css.php?la=$1&md=$2 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^web(.*)/style.css$ /module/$1/css.php?la=front&md=$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)/style.css$ /module/$1/css.php?la=front&md=$1 [L]
+
+# js
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^web(admin|manager|staff|user)/(.*)/common.js$ /module/$2/js.php?la=$1&md=$2 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)/common.js$ /module/$1/js.php?la=front&md=$1 [L]
+
+# img
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^web(admin|manager|staff|user)/(.*)/img/(.*)$ /module/$2/$1/img/$3 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)/img/(.*)$ /module/front/$1/img/$2 [L]
+
+# dispatch
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^web(admin|manager|staff|user)/(.*)/(.*).html$ /controller.php?la=$1&md=$2&sv=$3&%{QUERY_STRING} [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)/(.*).html$ /controller.php?la=front&md=$1&sv=$2&%{QUERY_STRING} [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^shop/(.*)$ /controller.php?la=front&md=shop&&sv=redirect&sh_code=$1&%{QUERY_STRING} [L]
+
+# welcome (main)
+RewriteRule ^web(admin|manager|staff|user)$ /controller.php?la=$1&md=page&sv=main&%{QUERY_STRING} [L]
+RewriteRule ^web(admin|manager|staff|user)/$ /controller.php?la=$1&md=page&sv=main&%{QUERY_STRING} [L]
+RewriteRule ^$ /controller.php?la=front&md=page&sv=main&%{QUERY_STRING} [L]
+

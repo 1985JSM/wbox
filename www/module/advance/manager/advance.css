@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+#advance table tbody.ad_type_M tr.ad_type_Q { display:none; }
+#advance table tbody.ad_type_M tr.ad_type_P { display:none; }
+
+#advance table tbody.ad_type_Q tr.ad_type_M { display:none; }
+#advance table tbody.ad_type_Q tr.ad_type_P { display:none; }
+
+#advance table tbody.ad_type_P tr.ad_type_M { display:none; }
+#advance table tbody.ad_type_P tr.ad_type_Q { display:none; }
